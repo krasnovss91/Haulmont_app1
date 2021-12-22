@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application" insertBefore="administration">
+    </menu>
+    <item id="untitled140$TypeOfPushcare.lookup" insertAfter="ts$SubscriberEdm.browse"/>
+</menu-config>

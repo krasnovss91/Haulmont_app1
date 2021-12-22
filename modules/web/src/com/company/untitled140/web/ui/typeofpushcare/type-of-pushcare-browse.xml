@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.untitled140.web.ui.typeofpushcare.TypeOfPushcareBrowse"
+        lookupComponent="typeOfPushcaresTable"
+        messagesPack="com.company.untitled140.web.ui.typeofpushcare">
+    <dsContext>
+        <collectionDatasource id="typeOfPushcaresDs"
+                              class="com.company.untitled140.entity.TypeOfPushcare"
+                              view="browse">
+            <query>
+                <![CDATA[select e from untitled140$TypeOfPushcare e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="typeOfPushcaresTable"
+            spacing="true">
+        <filter id="genericFilter"
+                datasource="typeOfPushcaresDs" stylename="edit-area" applyTo="typeOfPushcaresTable">
+            <properties include=".*"/>
+        </filter>
+        <table id="typeOfPushcaresTable"
+               width="100%"
+               presentations="true"
+               multiselect="true">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id='name'/>
+            </columns>
+            <rows datasource="typeOfPushcaresDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="typeOfPushcaresTable.create"/>
+                <button id="editBtn"
+                        action="typeOfPushcaresTable.edit"/>
+                <button id="removeBtn"
+                        action="typeOfPushcaresTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

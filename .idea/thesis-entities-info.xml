@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ThesisProjectEntitiesInfo">
+    <option name="references">
+      <set>
+        <option value="com.company.untitled140.entity.TypeOfPushcare" />
+      </set>
+    </option>
+  </component>
+</project>

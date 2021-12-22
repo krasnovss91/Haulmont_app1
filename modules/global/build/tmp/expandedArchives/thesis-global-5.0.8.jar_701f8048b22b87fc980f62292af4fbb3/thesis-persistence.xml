@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="thesis" transaction-type="RESOURCE_LOCAL">
+        <class>com.haulmont.thesis.core.entity.BaseCreatableUuidEntity</class>
+        <class>com.haulmont.thesis.core.entity.TsCard</class>
+        <class>com.haulmont.thesis.core.entity.TsCardAdditionalInfo</class>
+        <class>com.haulmont.thesis.core.entity.TsRole</class>
+        <class>com.haulmont.thesis.core.entity.TsGroup</class>
+        <class>com.haulmont.thesis.core.entity.CardAcl</class>
+        <class>com.haulmont.thesis.core.entity.AbstractTask</class>
+        <class>com.haulmont.thesis.core.entity.Task</class>
+        <class>com.haulmont.thesis.core.entity.TaskType</class>
+        <class>com.haulmont.thesis.core.entity.Priority</class>
+        <class>com.haulmont.thesis.core.entity.TaskGroup</class>
+        <class>com.haulmont.thesis.core.entity.TaskPattern</class>
+        <class>com.haulmont.thesis.core.entity.TaskPatternGroup</class>
+        <class>com.haulmont.thesis.core.entity.TaskInfo</class>
+        <class>com.haulmont.thesis.core.entity.ProjectGroup</class>
+        <class>com.haulmont.thesis.core.entity.Project</class>
+        <class>com.haulmont.thesis.core.entity.TsUser</class>
+        <class>com.haulmont.thesis.core.entity.TsUserSubstitution</class>
+        <class>com.haulmont.thesis.core.entity.TsUserGroup</class>
+        <class>com.haulmont.thesis.core.entity.TaskGroupTask</class>
+        <class>com.haulmont.thesis.core.entity.TaskGroupAttachment</class>
+        <class>com.haulmont.thesis.core.entity.Reminder</class>
+        <class>com.haulmont.thesis.core.entity.schedule.ScheduleTask</class>
+        <class>com.haulmont.thesis.core.entity.schedule.ScheduleAction</class>
+        <class>com.haulmont.thesis.core.entity.schedule.ScheduleActionType</class>
+        <class>com.haulmont.thesis.core.entity.schedule.ScheduleTrigger</class>
+        <class>com.haulmont.thesis.core.entity.StartTaskScheduleAction</class>
+        <class>com.haulmont.thesis.core.entity.schedule.ScheduleActionLog</class>
+        <class>com.haulmont.thesis.core.entity.CardUserInfo</class>
+        <class>com.haulmont.thesis.core.entity.MppResourceUser</class>
+
+        <class>com.haulmont.thesis.core.entity.Doc</class>
+        <class>com.haulmont.thesis.core.entity.DocExtraField</class>
+        <class>com.haulmont.thesis.core.entity.SimpleDoc</class>
+        <class>com.haulmont.thesis.core.entity.Contract</class>
+        <class>com.haulmont.thesis.core.entity.AccountDoc</class>
+        <class>com.haulmont.thesis.core.entity.CardType</class>
+        <class>com.haulmont.thesis.core.entity.DocKind</class>
+        <class>com.haulmont.thesis.core.entity.DocKindReport</class>
+        <class>com.haulmont.thesis.core.entity.Numerator</class>
+        <class>com.haulmont.thesis.core.entity.DocCategory</class>
+        <class>com.haulmont.thesis.core.entity.Organization</class>
+        <class>com.haulmont.thesis.core.entity.Contractor</class>
+        <class>com.haulmont.thesis.core.entity.Company</class>
+        <class>com.haulmont.thesis.core.entity.Individual</class>
+        <class>com.haulmont.thesis.core.entity.ContactPerson</class>
+        <class>com.haulmont.thesis.core.entity.Bank</class>
+        <class>com.haulmont.thesis.core.entity.BankRegion</class>
+        <class>com.haulmont.thesis.core.entity.Account</class>
+        <class>com.haulmont.thesis.core.entity.OrganizationAccount</class>
+        <class>com.haulmont.thesis.core.entity.ContractorAccount</class>
+        <class>com.haulmont.thesis.core.entity.Currency</class>
+        <class>com.haulmont.thesis.core.entity.Department</class>
+        <class>com.haulmont.thesis.core.entity.Employee</class>
+        <class>com.haulmont.thesis.core.entity.OrganizationAttachment</class>
+        <class>com.haulmont.thesis.core.entity.CorrespondentAttachment</class>
+        <class>com.haulmont.thesis.core.entity.Correspondent</class>
+        <class>com.haulmont.thesis.core.entity.DocReceivingMethod</class>
+        <class>com.haulmont.thesis.core.entity.OfficeFileNomenclature</class>
+        <class>com.haulmont.thesis.core.entity.OfficeFile</class>
+        <class>com.haulmont.thesis.core.entity.DocOfficeData</class>
+        <class>com.haulmont.thesis.core.entity.DocOfficeDataAddressee</class>
+        <class>com.haulmont.thesis.core.entity.DocTransferLog</class>
+        <class>com.haulmont.thesis.core.entity.TypicalResolution</class>
+        <class>com.haulmont.thesis.core.entity.DepartmentMembership</class>
+        <class>com.haulmont.thesis.core.entity.Position</class>
+        <class>com.haulmont.thesis.core.entity.ShortUrl</class>
+        <class>com.haulmont.thesis.core.entity.ImportDataType</class>
+        <class>com.haulmont.thesis.core.entity.ImportDataAttr</class>
+        <class>com.haulmont.thesis.core.entity.ImportEntityInfo</class>
+        <class>com.haulmont.thesis.core.entity.EmployeeDepartmentPositionRelation</class>
+        <class>com.haulmont.thesis.core.entity.OfficeFileNomenclatureRelation</class>
+        <class>com.haulmont.thesis.core.entity.LazyLoadAttachment</class>
+        <class>com.haulmont.thesis.core.entity.appintegration.AppIntegrationLog</class>
+        <class>com.haulmont.thesis.core.entity.appintegration.AppIntegrationLinkEntity</class>
+        <class>com.haulmont.thesis.core.entity.ResolutionWaitingComplete</class>
+        <class>com.haulmont.thesis.core.entity.ThesisCardAttachment</class>
+        <class>com.haulmont.thesis.core.entity.TsCardRole</class>
+        <class>com.haulmont.thesis.core.entity.ReservationNumber</class>
+        <class>com.haulmont.thesis.core.entity.SubCardInfo</class>
+        <class>com.haulmont.thesis.core.entity.RemoteCardState</class>
+        <class>com.haulmont.thesis.core.entity.OfficeFileTransferLog</class>
+        <class>com.haulmont.thesis.core.entity.TsProc</class>
+        <class>com.haulmont.thesis.core.entity.TsProcRole</class>
+        <class>com.haulmont.thesis.core.entity.CalendarEventItem</class>
+        <class>com.haulmont.thesis.core.entity.CalendarEventParticipant</class>
+
+        <class>com.haulmont.thesis.core.entity.MeetingDoc</class>
+        <class>com.haulmont.thesis.core.entity.MeetingQuestion</class>
+        <class>com.haulmont.thesis.core.entity.Solution</class>
+        <class>com.haulmont.thesis.core.entity.MeetingParticipant</class>
+        <class>com.haulmont.thesis.core.entity.CalendarLink</class>
+        <class>com.haulmont.thesis.core.entity.TsReport</class>
+        <class>com.haulmont.thesis.core.entity.defaultactor.TsDefaultProcActor</class>
+        <class>com.haulmont.thesis.core.entity.TsProcAppFolder</class>
+        <class>com.haulmont.thesis.core.entity.TsCardComment</class>
+        <class>com.haulmont.thesis.core.entity.CardCommentUser</class>
+        <class>com.haulmont.thesis.core.entity.ThesisEntityStatistics</class>
+        <class>com.haulmont.thesis.core.entity.mobile.CardMobileClientMetadata</class>
+        <class>com.haulmont.thesis.core.entity.mobile.ReferenceMobileClientMetadata</class>
+        <class>com.haulmont.thesis.core.entity.RestApiToken</class>
+        <class>com.haulmont.thesis.core.entity.mobile.MobileClientEntityUpdateLog</class>
+        <class>com.haulmont.thesis.core.entity.mobile.MobileClientCardUpdateLogUpdateTask</class>
+        <class>com.haulmont.thesis.core.entity.mobile.MobileClientActionLog</class>
+        <class>com.haulmont.thesis.core.entity.mobile.MobileDevice</class>
+        <class>com.haulmont.thesis.core.entity.mobile.push.PushNotification</class>
+        <class>com.haulmont.thesis.core.entity.TsCardProc</class>
+
+        <class>com.haulmont.thesis.core.entity.TsAssignment</class>
+        <class>com.haulmont.thesis.core.entity.MailActivityInfo</class>
+
+        <class>com.haulmont.thesis.core.entity.OperatorEdm</class>
+        <class>com.haulmont.thesis.core.entity.SubscriberEdm</class>
+        <class>com.haulmont.thesis.core.entity.EdmSending</class>
+        <class>com.haulmont.thesis.core.entity.EdmSignatureDetails</class>
+        <class>com.haulmont.thesis.core.entity.EdmDocumentEvent</class>
+
+        <class>com.haulmont.thesis.core.entity.Manual</class>
+
+        <class>com.haulmont.cuba.core.entity.Category</class>
+        <class>com.haulmont.cuba.core.entity.FileDescriptor</class>
+        <class>com.haulmont.cuba.security.entity.User</class>
+        <class>com.haulmont.cuba.security.entity.Role</class>
+        <class>com.haulmont.workflow.core.entity.Card</class>
+        <class>com.haulmont.workflow.core.entity.Proc</class>
+        <class>com.haulmont.workflow.core.entity.Design</class>
+        <class>com.haulmont.workflow.core.entity.Assignment</class>
+        <class>com.haulmont.workflow.core.entity.CardRole</class>
+        <class>com.haulmont.workflow.core.entity.ProcRole</class>
+
+        <class>com.haulmont.thesis.core.entity.AcceptanceData</class>
+        <class>com.haulmont.thesis.core.entity.PackageDoc</class>
+        <class>com.haulmont.thesis.core.entity.TsSearchFolder</class>
+
+        <class>com.haulmont.thesis.core.entity.ExternalDocEditingFileRevision</class>
+        <class>com.haulmont.thesis.core.entity.ExternalDocEditingSession</class>
+        <class>com.haulmont.thesis.core.entity.ExternalDocEditingConnection</class>
+
+        <class>com.haulmont.thesis.core.entity.appointment.Condition</class>
+        <class>com.haulmont.thesis.core.entity.appointment.ConditionValue</class>
+        <class>com.haulmont.thesis.core.entity.appointment.Appointment</class>
+        <class>com.haulmont.thesis.core.entity.appointment.AppointmentScript</class>
+        <class>com.haulmont.thesis.core.entity.appointment.AppointmentLog</class>
+        <class>com.haulmont.thesis.core.entity.appointment.AppointmentUser</class>
+        <class>com.haulmont.thesis.core.entity.appointment.AppointmentType</class>
+        <class>com.haulmont.thesis.core.entity.appointment.AppointmentCardRoleInfo</class>
+
+        <class>com.haulmont.thesis.core.entity.ComplexVoiceCommand</class>
+        <class>com.haulmont.thesis.core.entity.VoiceCommandSynonym</class>
+        <properties>
+            <property name="eclipselink.session-event-listener"
+                      value="com.haulmont.cuba.core.sys.persistence.ThesisEclipseLinkSessionEventListener"/>
+        </properties>
+    </persistence-unit>
+</persistence>

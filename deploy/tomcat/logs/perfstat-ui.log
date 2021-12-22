@@ -1,0 +1,41 @@
+Performance Statistics   2021-12-22 16:38:00 - 2021-12-22 16:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         23,0          23          23         0,0           1
+MenuItem.untitled140$TypeOfPushcare.lookup            1964,0        1964        1964         0,0           1
+TDS null                                                88,0          88          88         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     146,0         146         146         0,0           1
+loginWindow#init                                        66,0          66          66         0,0           1
+loginWindow#inject                                     126,0         126         126         0,0           1
+loginWindow#load                                      1233,0        1233        1233         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         13,0           0          26        13,0           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               4,0           4           4         0,0           1
+lookupWindowActions#load                                 4,0           4           4         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       20,0          20          20         0,0           1
+mainWindow#init                                        347,0         347         347         0,0           1
+mainWindow#inject                                       12,0          12          12         0,0           1
+mainWindow#load                                       1512,0        1512        1512         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           7,0           0          14         7,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    3,0           3           3         0,0           1
+mainWindow.voiceControlConsole#load                     34,0          34          34         0,0           1
+untitled140$TypeOfPushcare.lookup#afterShow              0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup#beforeShow             0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup#create                15,0          15          15         0,0           1
+untitled140$TypeOfPushcare.lookup#init                  14,0          14          14         0,0           1
+untitled140$TypeOfPushcare.lookup#inject                26,0          26          26         0,0           1
+untitled140$TypeOfPushcare.lookup#load                 932,0         932         932         0,0           1
+untitled140$TypeOfPushcare.lookup#uiPermissions          0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup#xml                    1,0           0           2         1,0           2
+untitled140$TypeOfPushcare.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup@typeOfPushcaresDs       175,0         175         175         0,0           1
+voiceControlConsole#create                              79,0          79          79         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
