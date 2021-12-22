@@ -39,3 +39,26 @@ untitled140$TypeOfPushcare.lookup@typeOfPushcaresDs       175,0         175     
 voiceControlConsole#create                              79,0          79          79         0,0           1
 voiceControlConsole#xml                                  1,0           1           1         0,0           1
 
+Performance Statistics   2021-12-22 17:10:00 - 2021-12-22 17:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         47,0          47          47         0,0           1
+TDS null                                               111,0         111         111         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     552,0         552         552         0,0           1
+loginWindow#init                                        37,0          37          37         0,0           1
+loginWindow#inject                                     212,0         212         212         0,0           1
+loginWindow#load                                       806,0         806         806         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         20,5           0          41        20,5           2
+mainWindow#create                                       12,0          12          12         0,0           1
+mainWindow#init                                        388,0         388         388         0,0           1
+mainWindow#inject                                       15,0          15          15         0,0           1
+mainWindow#load                                       2611,0        2611        2611         0,0           1
+mainWindow#xml                                          50,5           0         101        50,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    9,0           9           9         0,0           1
+mainWindow.voiceControlConsole#load                     45,0          45          45         0,0           1
+voiceControlConsole#create                              63,0          63          63         0,0           1
+voiceControlConsole#xml                                  6,0           6           6         0,0           1
+

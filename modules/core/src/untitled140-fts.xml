@@ -5,5 +5,8 @@
         <entity class="com.company.untitled140.entity.TypeOfPushcare">
             <include re=".*"/>
         </entity>
+        <entity class="com.company.untitled140.entity.TypeOfTransport">
+            <include re=".*"/>
+        </entity>
     </entities>
 </fts-config>

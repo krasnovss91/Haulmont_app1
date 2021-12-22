@@ -63,3 +63,24 @@ Thesis:loadCardDeadlineInfoTree                         19,0          19        
 ViewRepository.init.ViewRepositoryClientImpl           112,0         112         112         0,0           1
 ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
 
+Performance Statistics   2021-12-22 17:10:00 - 2021-12-22 17:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,2           0           8         0,8         144
+Messages.searchFiles                                     0,2           0          23         1,9         144
+Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           1
+
+Performance Statistics   2021-12-22 17:11:00 - 2021-12-22 17:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,1           0          17         0,5        1372
+Messages.searchClasspath                                 0,1           0          51         0,8        9911
+Messages.searchFiles                                     0,0           0          23         0,3        9911
+Messages.searchRemotely                                  1,4           0          68         4,0         575
+Metadata.replaceExtendedMetaClasses                      2,0           2           2         0,0           3
+Scheduling.processTasks                                113,5          13         455        87,9          44
+Thesis:loadCalendarEvents                                5,0           5           5         0,0           1
+Thesis:loadCardDeadlineInfoTree                         37,0          37          37         0,0           1
+ViewRepository.init.ExtViewRepositoryImpl              110,0         110         110         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           142,0         142         142         0,0           1
+ViewRepository.replaceOverridden                         0,2           0           5         0,8          42
+WebJARs                                                 14,0          14          14         0,0           1
+

@@ -2,4 +2,5 @@
 <entities xmlns="http://schemas.haulmont.com/thesis/4.0/loggedEntities.xsd">
 
     <entity metaClass="untitled140$TypeOfPushcare"/>
+    <entity metaClass="untitled140$TypeOfTransport"/>
 </entities>

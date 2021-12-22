@@ -7,4 +7,10 @@
             template="com/company/untitled140/web/ui/typeofpushcare/type-of-pushcare-edit.xml"/>
     <screen id="untitled140$TypeOfPushcare.lookup"
             template="com/company/untitled140/web/ui/typeofpushcare/type-of-pushcare-browse.xml"/>
+    <screen id="untitled140$TypeOfTransport.browse"
+            template="com/company/untitled140/web/ui/typeoftransport/type-of-transport-browse.xml"/>
+    <screen id="untitled140$TypeOfTransport.edit"
+            template="com/company/untitled140/web/ui/typeoftransport/type-of-transport-edit.xml"/>
+    <screen id="untitled140$TypeOfTransport.lookup"
+            template="com/company/untitled140/web/ui/typeoftransport/type-of-transport-browse.xml"/>
 </screen-config>

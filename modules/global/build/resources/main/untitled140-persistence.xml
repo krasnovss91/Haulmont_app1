@@ -11,5 +11,6 @@
                       transaction-type="RESOURCE_LOCAL">
 
         <class>com.company.untitled140.entity.TypeOfPushcare</class>
+        <class>com.company.untitled140.entity.TypeOfTransport</class>
     </persistence-unit>
 </persistence>

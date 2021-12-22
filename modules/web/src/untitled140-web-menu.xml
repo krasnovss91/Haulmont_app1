@@ -3,4 +3,5 @@
     <menu id="application" insertBefore="administration">
     </menu>
     <item id="untitled140$TypeOfPushcare.lookup" insertAfter="ts$SubscriberEdm.browse"/>
+    <item id="untitled140$TypeOfTransport.lookup" insertAfter="ts$SubscriberEdm.browse"/>
 </menu-config>

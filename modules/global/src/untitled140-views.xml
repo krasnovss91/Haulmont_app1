@@ -3,4 +3,6 @@
 
     <view entity="untitled140$TypeOfPushcare" name="browse" extends="_local"/>
     <view entity="untitled140$TypeOfPushcare" name="edit" extends="_local"/>
+    <view entity="untitled140$TypeOfTransport" name="browse" extends="_local"/>
+    <view entity="untitled140$TypeOfTransport" name="edit" extends="_local"/>
 </views>

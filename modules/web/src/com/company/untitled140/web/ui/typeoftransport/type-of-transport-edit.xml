@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.untitled140.web.ui.typeoftransport.TypeOfTransportEdit"
+        datasource="typeOfTransportDs"
+        messagesPack="com.company.untitled140.web.ui.typeoftransport">
+    <dsContext>
+        <datasource id="typeOfTransportDs"
+                    class="com.company.untitled140.entity.TypeOfTransport"
+                    view="edit">
+        </datasource>
+    </dsContext>
+    <layout expand="tabsheet" width="100%" height="100%"
+            spacing="true">
+        <tabSheet id="tabsheet">
+            <tab id="mainTab" caption="msg://mainTab" margin="true">
+                <scrollBox id="scrollBox56" height="100%">
+                    <fieldGroup id="typeOfTransportFieldGroup"
+                                datasource="typeOfTransportDs"
+                    >
+                        <column width="250px">
+                            <field id="name" property="name"/>
+                        </column>
+                    </fieldGroup>
+                </scrollBox>
+            </tab>
+            <tab id="logTab"
+                 caption="msg://entityLogTab"
+                 lazy="true">
+                <iframe id="logFrame"
+                        height="100%"
+                        screen="entityLogFrame"/>
+            </tab>
+        </tabSheet>
+        <iframe id="windowActions"
+                screen="editWindowActions"/>
+    </layout>
+</window>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.untitled140.web.ui.typeoftransport.TypeOfTransportBrowse"
+        lookupComponent="typeOfTransportsTable"
+        messagesPack="com.company.untitled140.web.ui.typeoftransport">
+    <dsContext>
+        <collectionDatasource id="typeOfTransportsDs"
+                              class="com.company.untitled140.entity.TypeOfTransport"
+                              view="browse">
+            <query>
+                <![CDATA[select e from untitled140$TypeOfTransport e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="typeOfTransportsTable"
+            spacing="true">
+        <filter id="genericFilter"
+                datasource="typeOfTransportsDs" stylename="edit-area" applyTo="typeOfTransportsTable">
+            <properties include=".*"/>
+        </filter>
+        <table id="typeOfTransportsTable"
+               width="100%"
+               presentations="true"
+               multiselect="true">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id='name'/>
+            </columns>
+            <rows datasource="typeOfTransportsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="typeOfTransportsTable.create"/>
+                <button id="editBtn"
+                        action="typeOfTransportsTable.edit"/>
+                <button id="removeBtn"
+                        action="typeOfTransportsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

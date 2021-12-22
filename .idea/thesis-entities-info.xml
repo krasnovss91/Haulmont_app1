@@ -4,6 +4,7 @@
     <option name="references">
       <set>
         <option value="com.company.untitled140.entity.TypeOfPushcare" />
+        <option value="com.company.untitled140.entity.TypeOfTransport" />
       </set>
     </option>
   </component>
