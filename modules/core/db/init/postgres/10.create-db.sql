@@ -9,7 +9,7 @@ create table UNTITLED140_TYPE_OF_PUSHCARE (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    NAME varchar(50),
+    NAME varchar(50) not null,
     --
     primary key (ID)
 )^
@@ -25,7 +25,7 @@ create table UNTITLED140_TYPE_OF_TRANSPORT (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    NAME varchar(50),
+    NAME varchar(50) not null,
     --
     primary key (ID)
 )^
@@ -41,9 +41,9 @@ create table UNTITLED140_CFO (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    NUMBER_OF_CFO integer,
-    NAME varchar(50),
-    DISPLAY varchar(50),
+    NUMBER_OF_CFO integer not null,
+    NAME varchar(50) not null,
+    DISPLAY varchar(50) not null,
     --
     primary key (ID)
 )^
@@ -59,10 +59,10 @@ create table UNTITLED140_EXPENCE_ITEM (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    LARGE_CODE integer,
-    CODE double precision,
-    NAME varchar(50),
-    DISPLAY varchar(50),
+    LARGE_CODE integer not null,
+    CODE double precision not null,
+    NAME varchar(50) not null,
+    DISPLAY varchar(50) not null,
     --
     primary key (ID)
 )^
@@ -78,7 +78,7 @@ create table UNTITLED140_BOOKING (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    NAME varchar(50),
+    NAME varchar(50) not null,
     --
     primary key (ID)
 )^

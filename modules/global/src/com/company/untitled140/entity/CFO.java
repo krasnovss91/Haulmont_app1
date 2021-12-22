@@ -1,13 +1,13 @@
 package com.company.untitled140.entity;
 
+import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
-import com.haulmont.cuba.core.entity.StandardEntity;
+import javax.validation.constraints.NotNull;
 
 @Table(name = "UNTITLED140_CFO")
 @Entity(name = "untitled140$CFO")
@@ -16,11 +16,17 @@ import com.haulmont.cuba.core.entity.StandardEntity;
 public class CFO extends StandardEntity {
 
     private static final long serialVersionUID = 4567087566630888657L;
-    @Column(name = "NUMBER_OF_CFO")
+
+    @Column(name = "NUMBER_OF_CFO", nullable = false)
+    @NotNull
     protected Integer numberOfCFO;
-    @Column(name = "NAME", length = 50)
+
+    @Column(name = "NAME", nullable = false, length = 50)
+    @NotNull
     protected String name;
-    @Column(name = "DISPLAY", length = 50)
+
+    @Column(name = "DISPLAY", nullable = false, length = 50)
+    @NotNull
     protected String display;
 
     public String getDisplay() {

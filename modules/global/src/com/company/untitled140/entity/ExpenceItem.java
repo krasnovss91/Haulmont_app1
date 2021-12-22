@@ -1,13 +1,13 @@
 package com.company.untitled140.entity;
 
+import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
-import com.haulmont.cuba.core.entity.StandardEntity;
+import javax.validation.constraints.NotNull;
 
 @Table(name = "UNTITLED140_EXPENCE_ITEM")
 @Entity(name = "untitled140$ExpenceItem")
@@ -16,14 +16,26 @@ import com.haulmont.cuba.core.entity.StandardEntity;
 public class ExpenceItem extends StandardEntity {
 
     private static final long serialVersionUID = -2530691982234495123L;
-    @Column(name = "LARGE_CODE")
+
+    @Column(name = "LARGE_CODE", nullable = false)
+    @NotNull
     protected Integer largeCode;
-    @Column(name = "CODE")
+
+    @Column(name = "CODE", nullable = false)
+    @NotNull
     protected Double code;
-    @Column(name = "NAME", length = 50)
+
+    @Column(name = "NAME", nullable = false, length = 50)
+    @NotNull
     protected String name;
-    @Column(name = "DISPLAY", length = 50)
+
+    @Column(name = "DISPLAY", nullable = false, length = 50)
+    @NotNull
     protected String display;
+
+    public void setLargeCode(Integer largeCode) {
+        this.largeCode = largeCode;
+    }
 
     public String getDisplay() {
         return display;
@@ -53,7 +65,4 @@ public class ExpenceItem extends StandardEntity {
         return largeCode;
     }
 
-    public void setLargeCode(Integer largeCode) {
-        this.largeCode = largeCode;
-    }
 }

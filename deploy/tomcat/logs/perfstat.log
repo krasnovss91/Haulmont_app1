@@ -153,3 +153,12 @@ ViewRepository.init.ExtViewRepositoryImpl              111,0         111        
 ViewRepository.replaceOverridden                         0,2           0           2         0,5          21
 WebJARs                                                 14,0          14          14         0,0           1
 
+Performance Statistics   2021-12-22 18:24:00 - 2021-12-22 18:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,2           0          23         1,5         570
+Messages.searchFiles                                     0,0           0          18         0,8         570
+Metadata.replaceExtendedMetaClasses                      2,5           2           3         0,5           2
+Scheduling.processTasks                                 83,8          21         144        37,7          12
+ViewRepository.init.ExtViewRepositoryImpl              100,0         100         100         0,0           1
+ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+
