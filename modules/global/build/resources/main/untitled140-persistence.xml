@@ -12,5 +12,6 @@
 
         <class>com.company.untitled140.entity.TypeOfPushcare</class>
         <class>com.company.untitled140.entity.TypeOfTransport</class>
+        <class>com.company.untitled140.entity.CFO</class>
     </persistence-unit>
 </persistence>

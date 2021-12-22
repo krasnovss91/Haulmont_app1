@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.untitled140.web.ui.cfo.CFOEdit"
+        datasource="cFODs"
+        messagesPack="com.company.untitled140.web.ui.cfo">
+    <dsContext>
+        <datasource id="cFODs"
+                    class="com.company.untitled140.entity.CFO"
+                    view="edit">
+        </datasource>
+    </dsContext>
+    <layout expand="tabsheet" width="100%" height="100%"
+            spacing="true">
+        <tabSheet id="tabsheet">
+            <tab id="mainTab" caption="msg://mainTab" margin="true">
+                <scrollBox id="scrollBox56" height="100%">
+                    <fieldGroup id="cFOFieldGroup"
+                                datasource="cFODs"
+                    >
+                        <column width="250px">
+                            <field id="numberOfCFO" property="numberOfCFO"/>
+                            <field id="name" property="name"/>
+                            <field id="display" property="display"/>
+                        </column>
+                    </fieldGroup>
+                </scrollBox>
+            </tab>
+            <tab id="logTab"
+                 caption="msg://entityLogTab"
+                 lazy="true">
+                <iframe id="logFrame"
+                        height="100%"
+                        screen="entityLogFrame"/>
+            </tab>
+        </tabSheet>
+        <iframe id="windowActions"
+                screen="editWindowActions"/>
+    </layout>
+</window>

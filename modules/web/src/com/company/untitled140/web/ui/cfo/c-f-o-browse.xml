@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.untitled140.web.ui.cfo.CFOBrowse"
+        lookupComponent="cFoesTable"
+        messagesPack="com.company.untitled140.web.ui.cfo">
+    <dsContext>
+        <collectionDatasource id="cFoesDs"
+                              class="com.company.untitled140.entity.CFO"
+                              view="browse">
+            <query>
+                <![CDATA[select e from untitled140$CFO e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="cFoesTable"
+            spacing="true">
+        <filter id="genericFilter"
+                datasource="cFoesDs" stylename="edit-area" applyTo="cFoesTable">
+            <properties include=".*"/>
+        </filter>
+        <table id="cFoesTable"
+               width="100%"
+               presentations="true"
+               multiselect="true">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id='numberOfCFO'/>
+                <column id='name'/>
+                <column id='display'/>
+            </columns>
+            <rows datasource="cFoesDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="cFoesTable.create"/>
+                <button id="editBtn"
+                        action="cFoesTable.edit"/>
+                <button id="removeBtn"
+                        action="cFoesTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

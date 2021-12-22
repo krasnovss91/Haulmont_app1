@@ -3,4 +3,5 @@
 
     <entity metaClass="untitled140$TypeOfPushcare"/>
     <entity metaClass="untitled140$TypeOfTransport"/>
+    <entity metaClass="untitled140$CFO"/>
 </entities>

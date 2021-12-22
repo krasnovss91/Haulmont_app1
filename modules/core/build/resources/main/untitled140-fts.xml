@@ -8,5 +8,8 @@
         <entity class="com.company.untitled140.entity.TypeOfTransport">
             <include re=".*"/>
         </entity>
+        <entity class="com.company.untitled140.entity.CFO">
+            <include re=".*"/>
+        </entity>
     </entities>
 </fts-config>

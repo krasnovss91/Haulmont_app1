@@ -84,3 +84,38 @@ ViewRepository.init.ViewRepositoryClientImpl           142,0         142        
 ViewRepository.replaceOverridden                         0,2           0           5         0,8          42
 WebJARs                                                 14,0          14          14         0,0           1
 
+Performance Statistics   2021-12-22 17:27:00 - 2021-12-22 17:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,2           0           1         0,4          18
+Messages.searchClasspath                                 0,2           0          27         1,3         666
+Messages.searchFiles                                     0,0           0          18         0,7         666
+Metadata.replaceExtendedMetaClasses                      2,3           2           3         0,4           4
+Scheduling.processTasks                                118,7          13         607       112,8          32
+ViewRepository.init.ExtViewRepositoryImpl               89,0          89          89         0,0           1
+ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+WebJARs                                                 15,0          15          15         0,0           1
+
+Performance Statistics   2021-12-22 17:28:00 - 2021-12-22 17:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 36,1          12         361        56,9          60
+
+Performance Statistics   2021-12-22 17:29:00 - 2021-12-22 17:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 29,0           8         108        22,5          60
+
+Performance Statistics   2021-12-22 17:30:00 - 2021-12-22 17:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 27,3          12          91        19,1          60
+
+Performance Statistics   2021-12-22 17:31:00 - 2021-12-22 17:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,1           0          23         0,8        1008
+Messages.searchClasspath                                 0,1           0         253         2,7        9397
+Messages.searchFiles                                     0,0           0           2         0,0        9397
+Messages.searchRemotely                                  1,2           0         260        11,0         575
+Scheduling.processTasks                                 61,2           9         276        50,0          60
+Thesis:loadCalendarEvents                                3,0           3           3         0,0           1
+Thesis:loadCardDeadlineInfoTree                         21,0          21          21         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           165,0         165         165         0,0           1
+ViewRepository.replaceOverridden                         0,3           0           4         0,9          21
+

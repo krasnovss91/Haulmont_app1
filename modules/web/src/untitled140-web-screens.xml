@@ -13,4 +13,7 @@
             template="com/company/untitled140/web/ui/typeoftransport/type-of-transport-edit.xml"/>
     <screen id="untitled140$TypeOfTransport.lookup"
             template="com/company/untitled140/web/ui/typeoftransport/type-of-transport-browse.xml"/>
+    <screen id="untitled140$CFO.browse" template="com/company/untitled140/web/ui/cfo/c-f-o-browse.xml"/>
+    <screen id="untitled140$CFO.edit" template="com/company/untitled140/web/ui/cfo/c-f-o-edit.xml"/>
+    <screen id="untitled140$CFO.lookup" template="com/company/untitled140/web/ui/cfo/c-f-o-browse.xml"/>
 </screen-config>

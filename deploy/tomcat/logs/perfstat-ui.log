@@ -62,3 +62,29 @@ mainWindow.voiceControlConsole#load                     45,0          45        
 voiceControlConsole#create                              63,0          63          63         0,0           1
 voiceControlConsole#xml                                  6,0           6           6         0,0           1
 
+Performance Statistics   2021-12-22 17:28:00 - 2021-12-22 17:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-22 17:30:00 - 2021-12-22 17:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         25,0          25          25         0,0           1
+TDS null                                                71,0          71          71         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           2
+loginWindow#beforeShow                                   1,0           0           2         1,0           2
+loginWindow#create                                     125,0           1         249       124,0           2
+loginWindow#init                                        71,5           0         143        71,5           2
+loginWindow#inject                                      91,0           0         182        91,0           2
+loginWindow#load                                       550,5           4        1097       546,5           2
+loginWindow#uiPermissions                               26,5           0          53        26,5           2
+loginWindow#xml                                         24,8           0          99        42,9           4
+mainWindow#create                                       24,0          24          24         0,0           1
+mainWindow#init                                        251,0         251         251         0,0           1
+mainWindow#inject                                       13,0          13          13         0,0           1
+mainWindow#load                                       1919,0        1919        1919         0,0           1
+mainWindow#xml                                           5,5           0          11         5,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
+mainWindow.voiceControlConsole#load                     45,0          45          45         0,0           1
+voiceControlConsole#create                              63,0          63          63         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
