@@ -7,6 +7,7 @@
         <option value="com.company.untitled140.entity.TypeOfTransport" />
         <option value="com.company.untitled140.entity.CFO" />
         <option value="com.company.untitled140.entity.ExpenceItem" />
+        <option value="com.company.untitled140.entity.Booking" />
       </set>
     </option>
   </component>

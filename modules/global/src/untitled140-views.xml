@@ -9,4 +9,6 @@
     <view entity="untitled140$CFO" name="edit" extends="_local"/>
     <view entity="untitled140$ExpenceItem" name="browse" extends="_local"/>
     <view entity="untitled140$ExpenceItem" name="edit" extends="_local"/>
+    <view entity="untitled140$Booking" name="browse" extends="_local"/>
+    <view entity="untitled140$Booking" name="edit" extends="_local"/>
 </views>

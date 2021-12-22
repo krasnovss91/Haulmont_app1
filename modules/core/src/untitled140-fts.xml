@@ -14,5 +14,8 @@
         <entity class="com.company.untitled140.entity.ExpenceItem">
             <include re=".*"/>
         </entity>
+        <entity class="com.company.untitled140.entity.Booking">
+            <include re=".*"/>
+        </entity>
     </entities>
 </fts-config>

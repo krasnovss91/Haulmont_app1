@@ -14,5 +14,6 @@
         <class>com.company.untitled140.entity.TypeOfTransport</class>
         <class>com.company.untitled140.entity.CFO</class>
         <class>com.company.untitled140.entity.ExpenceItem</class>
+        <class>com.company.untitled140.entity.Booking</class>
     </persistence-unit>
 </persistence>

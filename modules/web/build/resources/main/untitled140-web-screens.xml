@@ -22,4 +22,7 @@
             template="com/company/untitled140/web/ui/expenceitem/expence-item-edit.xml"/>
     <screen id="untitled140$ExpenceItem.lookup"
             template="com/company/untitled140/web/ui/expenceitem/expence-item-browse.xml"/>
+    <screen id="untitled140$Booking.browse" template="com/company/untitled140/web/ui/booking/booking-browse.xml"/>
+    <screen id="untitled140$Booking.edit" template="com/company/untitled140/web/ui/booking/booking-edit.xml"/>
+    <screen id="untitled140$Booking.lookup" template="com/company/untitled140/web/ui/booking/booking-browse.xml"/>
 </screen-config>
