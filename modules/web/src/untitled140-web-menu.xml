@@ -5,4 +5,5 @@
     <item id="untitled140$TypeOfPushcare.lookup" insertAfter="ts$SubscriberEdm.browse"/>
     <item id="untitled140$TypeOfTransport.lookup" insertAfter="ts$SubscriberEdm.browse"/>
     <item id="untitled140$CFO.lookup" insertAfter="ts$SubscriberEdm.browse"/>
+    <item id="untitled140$ExpenceItem.lookup" insertAfter="ts$SubscriberEdm.browse"/>
 </menu-config>

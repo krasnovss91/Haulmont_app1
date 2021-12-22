@@ -16,4 +16,10 @@
     <screen id="untitled140$CFO.browse" template="com/company/untitled140/web/ui/cfo/c-f-o-browse.xml"/>
     <screen id="untitled140$CFO.edit" template="com/company/untitled140/web/ui/cfo/c-f-o-edit.xml"/>
     <screen id="untitled140$CFO.lookup" template="com/company/untitled140/web/ui/cfo/c-f-o-browse.xml"/>
+    <screen id="untitled140$ExpenceItem.browse"
+            template="com/company/untitled140/web/ui/expenceitem/expence-item-browse.xml"/>
+    <screen id="untitled140$ExpenceItem.edit"
+            template="com/company/untitled140/web/ui/expenceitem/expence-item-edit.xml"/>
+    <screen id="untitled140$ExpenceItem.lookup"
+            template="com/company/untitled140/web/ui/expenceitem/expence-item-browse.xml"/>
 </screen-config>

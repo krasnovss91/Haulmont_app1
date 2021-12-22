@@ -88,3 +88,44 @@ mainWindow.voiceControlConsole#load                     45,0          45        
 voiceControlConsole#create                              63,0          63          63         0,0           1
 voiceControlConsole#xml                                  1,0           1           1         0,0           1
 
+Performance Statistics   2021-12-22 17:44:00 - 2021-12-22 17:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         36,0          36          36         0,0           1
+MenuItem.untitled140$ExpenceItem.lookup               1882,0        1882        1882         0,0           1
+TDS null                                                85,0          85          85         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     112,0         112         112         0,0           1
+loginWindow#init                                        32,0          32          32         0,0           1
+loginWindow#inject                                     103,0         103         103         0,0           1
+loginWindow#load                                       568,0         568         568         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         16,0           0          32        16,0           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               3,0           3           3         0,0           1
+lookupWindowActions#load                                 1,0           1           1         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       22,0          22          22         0,0           1
+mainWindow#init                                        277,0         277         277         0,0           1
+mainWindow#inject                                       17,0          17          17         0,0           1
+mainWindow#load                                       2051,0        2051        2051         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           8,0           0          16         8,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    5,0           5           5         0,0           1
+mainWindow.voiceControlConsole#load                     50,0          50          50         0,0           1
+untitled140$ExpenceItem.lookup#afterShow                 0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup#beforeShow                0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup#create                   14,0          14          14         0,0           1
+untitled140$ExpenceItem.lookup#init                     10,0          10          10         0,0           1
+untitled140$ExpenceItem.lookup#inject                   24,0          24          24         0,0           1
+untitled140$ExpenceItem.lookup#load                    810,0         810         810         0,0           1
+untitled140$ExpenceItem.lookup#uiPermissions             0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup#xml                       0,5           0           1         0,5           2
+untitled140$ExpenceItem.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup@expenceItemsDs          185,0         185         185         0,0           1
+voiceControlConsole#create                              65,0          65          65         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+

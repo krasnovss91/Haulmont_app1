@@ -4,4 +4,5 @@
     <entity metaClass="untitled140$TypeOfPushcare"/>
     <entity metaClass="untitled140$TypeOfTransport"/>
     <entity metaClass="untitled140$CFO"/>
+    <entity metaClass="untitled140$ExpenceItem"/>
 </entities>

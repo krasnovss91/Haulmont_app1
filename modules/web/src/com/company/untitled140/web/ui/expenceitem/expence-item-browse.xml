@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.untitled140.web.ui.expenceitem.ExpenceItemBrowse"
+        lookupComponent="expenceItemsTable"
+        messagesPack="com.company.untitled140.web.ui.expenceitem">
+    <dsContext>
+        <collectionDatasource id="expenceItemsDs"
+                              class="com.company.untitled140.entity.ExpenceItem"
+                              view="browse">
+            <query>
+                <![CDATA[select e from untitled140$ExpenceItem e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="expenceItemsTable"
+            spacing="true">
+        <filter id="genericFilter"
+                datasource="expenceItemsDs" stylename="edit-area" applyTo="expenceItemsTable">
+            <properties include=".*"/>
+        </filter>
+        <table id="expenceItemsTable"
+               width="100%"
+               presentations="true"
+               multiselect="true">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id='largeCode'/>
+                <column id='code'/>
+                <column id='name'/>
+                <column id='display'/>
+            </columns>
+            <rows datasource="expenceItemsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="expenceItemsTable.create"/>
+                <button id="editBtn"
+                        action="expenceItemsTable.edit"/>
+                <button id="removeBtn"
+                        action="expenceItemsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

@@ -6,6 +6,7 @@
         <option value="com.company.untitled140.entity.TypeOfPushcare" />
         <option value="com.company.untitled140.entity.TypeOfTransport" />
         <option value="com.company.untitled140.entity.CFO" />
+        <option value="com.company.untitled140.entity.ExpenceItem" />
       </set>
     </option>
   </component>
