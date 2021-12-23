@@ -17,6 +17,10 @@ import javax.persistence.*;
 public class Request extends TsCard {
     private static final long serialVersionUID = 6935893211447730139L;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "TYPE_OF_PUSHCARE_ID")
+    protected TypeOfPushcare typeOfPushcare;
+
     @Column(name = "DESCRIPTIONS")
     protected String descriptions;
 
@@ -43,6 +47,14 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public TypeOfPushcare getTypeOfPushcare() {
+        return typeOfPushcare;
+    }
+
+    public void setTypeOfPushcare(TypeOfPushcare typeOfPushcare) {
+        this.typeOfPushcare = typeOfPushcare;
+    }
 
     public String getHotel() {
         return hotel;

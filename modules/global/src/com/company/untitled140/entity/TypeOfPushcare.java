@@ -4,9 +4,7 @@ import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Table(name = "UNTITLED140_TYPE_OF_PUSHCARE")
@@ -20,6 +18,16 @@ public class TypeOfPushcare extends StandardEntity {
     @Column(name = "NAME", nullable = false, length = 50)
     @NotNull
     protected String name;
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "typeOfPushcare")
+    protected Request request;
+
+    public Request getRequest() {
+        return request;
+    }
+
+    public void setRequest(Request request) {
+        this.request = request;
+    }
 
     public String getName() {
         return name;
