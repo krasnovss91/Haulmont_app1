@@ -25,4 +25,7 @@
     <screen id="untitled140$Booking.browse" template="com/company/untitled140/web/ui/booking/booking-browse.xml"/>
     <screen id="untitled140$Booking.edit" template="com/company/untitled140/web/ui/booking/booking-edit.xml"/>
     <screen id="untitled140$Booking.lookup" template="com/company/untitled140/web/ui/booking/booking-browse.xml"/>
+    <screen id="untitled140$Request.browse" template="com/company/untitled140/web/ui/request/request-browse.xml"/>
+    <screen id="untitled140$Request.edit" template="com/company/untitled140/web/ui/request/request-edit.xml"/>
+    <screen id="untitled140$Request.lookup" template="com/company/untitled140/web/ui/request/request-browse.xml"/>
 </screen-config>

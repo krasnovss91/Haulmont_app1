@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.untitled140.web.ui.request.RequestBrowse"
+        lookupComponent="cardsTable"
+        messagesPack="com.company.untitled140.web.ui.request">
+    <dsContext>
+        <groupDatasource id="cardsDs"
+                         class="com.company.untitled140.entity.Request"
+                         datasourceClass="com.company.untitled140.web.ui.request.RequestBrowseDatasource"
+                         view="browse">
+            <query>
+                <![CDATA[select distinct e from untitled140$Request e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <layout expand="split"
+            spacing="true">
+        <hbox spacing="true" height="AUTO" width="100%">
+            <filter id="genericFilter" datasource="cardsDs" stylename="edit-area" applyTo="cardsTable">
+                <properties include=".*"
+                            exclude="parentCardAccess|procFamily|deletedBy|id|jbpmProcessId|deleteTs|category|updatedBy|updateTs|createTs|createdBy|signatures"/>
+            </filter>
+        </hbox>
+        <split id="split" orientation="vertical" pos="60" height="100%" width="100%">
+            <vbox id="table-panel" expand="cardsTable" spacing="true" height="100%">
+                <groupTable id="cardsTable"
+                            height="100%"
+                            width="100%"
+                            presentations="true">
+                    <actions>
+                        <action id="create"/>
+                        <action id="edit"/>
+                        <action id="remove"/>
+                        <action id="excel"/>
+                        <action id="refresh"/>
+                    </actions>
+                    <columns>
+                        <column id="hasAttachments" caption="msg://hasAttachments" width="30">
+                            <formatter class="com.haulmont.thesis.gui.components.formatter.HasAttachmentsFormatter"/>
+                        </column>
+                        <column id="important" caption="msg://important" width="30">
+                            <formatter class="com.haulmont.thesis.gui.components.formatter.ImportantDocFormatter"/>
+                        </column>
+                        <column id="locState" caption="msg://state"/>
+                        <column id='number'/>
+                    </columns>
+                    <rows datasource="cardsDs"/>
+                    <rowsCount/>
+                    <buttonsPanel id="buttonsPanel"
+                                  alwaysVisible="true">
+                        <button id="createBtn" icon="" caption="msg://actions.Create"
+                                action="cardsTable.create"/>
+                        <button id="editBtn"
+                                action="cardsTable.edit"
+                                icon="icons/edit.png"/>
+                        <button id="removeBtn"
+                                action="cardsTable.remove"
+                                icon="icons/remove.png"/>
+                        <button id="excelBtn"
+                                action="cardsTable.excel"
+                                icon="icons/excel.png"/>
+                        <runReportPopupButton id="printBtn" icon="icons/reports-print.png" description="msg://print"/>
+                        <button id="refreshBtn"
+                                action="cardsTable.refresh"
+                                icon="font-icon:REFRESH"/>
+                        <button id="saveAsTemplateButton"
+                                icon="icons/save_as_template.png"/>
+                    </buttonsPanel>
+                </groupTable>
+            </vbox>
+            <tabSheet id="cardDetailsTabSheet" height="100%" width="100%">
+                <tab id="resolutionsTab" caption="msg://resolutions">
+                    <frame id="resolutionsFrame"
+                           screen="resolutionsFrame" height="100%"/>
+                </tab>
+                <tab id="hierarchyTab" caption="msg://hierarchy">
+                    <frame id="cardTreeFrame" screen="cardTreeFrame" height="100%"/>
+                </tab>
+            </tabSheet>
+        </split>
+    </layout>
+</window>

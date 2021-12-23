@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ThesisProjectEntitiesInfo">
+    <option name="cardStates">
+      <map>
+        <entry key="com.company.untitled140.entity.Request">
+          <value>
+            <EntityState>
+              <option name="classFqn" value="com.company.untitled140.entity.Request" />
+              <option name="numeratorPrefix" value="" />
+            </EntityState>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="cards">
+      <set>
+        <option value="com.company.untitled140.entity.Request" />
+      </set>
+    </option>
     <option name="references">
       <set>
         <option value="com.company.untitled140.entity.TypeOfPushcare" />
