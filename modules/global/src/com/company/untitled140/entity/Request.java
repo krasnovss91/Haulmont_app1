@@ -4,6 +4,7 @@ import com.haulmont.cuba.core.entity.Category;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.Listeners;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
+import com.haulmont.thesis.core.entity.Numerator;
 import com.haulmont.thesis.core.entity.TsCard;
 
 import javax.persistence.*;
@@ -17,6 +18,10 @@ import javax.persistence.*;
 @PrimaryKeyJoinColumn(name = "CARD_ID", referencedColumnName = "ID")
 public class Request extends TsCard {
     private static final long serialVersionUID = 6935893211447730139L;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "NUMBER_ID")
+    protected Numerator number;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CATEGORY_OF_REQUEST_ID")
@@ -60,6 +65,14 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public Numerator getNumber() {
+        return number;
+    }
+
+    public void setNumber(Numerator number) {
+        this.number = number;
+    }
 
     public Booking getBooking() {
         return booking;
