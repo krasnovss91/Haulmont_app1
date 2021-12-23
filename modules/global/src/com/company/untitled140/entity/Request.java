@@ -1,5 +1,6 @@
 package com.company.untitled140.entity;
 
+import com.haulmont.cuba.core.entity.Category;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.Listeners;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
@@ -16,6 +17,10 @@ import javax.persistence.*;
 @PrimaryKeyJoinColumn(name = "CARD_ID", referencedColumnName = "ID")
 public class Request extends TsCard {
     private static final long serialVersionUID = 6935893211447730139L;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "CATEGORY_OF_REQUEST_ID")
+    protected Category categoryOfRequest;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "TYPE_OF_PUSHCARE_ID")
@@ -47,6 +52,14 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public Category getCategoryOfRequest() {
+        return categoryOfRequest;
+    }
+
+    public void setCategoryOfRequest(Category categoryOfRequest) {
+        this.categoryOfRequest = categoryOfRequest;
+    }
 
     public TypeOfPushcare getTypeOfPushcare() {
         return typeOfPushcare;
