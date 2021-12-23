@@ -44,6 +44,9 @@ public class Request extends TsCard {
     @Column(name = "PLANED_PUSHCARE_PRICE_WITH_VAT")
     protected Integer planedPushcarePriceWithVAT;
 
+    @Column(name = "AVAILABILITY_OF_FUNDS_IN_BUDGET")
+    protected String availabilityOfFundsInBudget;
+
     @Column(name = "DESCRIPTIONS")
     protected String descriptions;
 
@@ -117,6 +120,14 @@ public class Request extends TsCard {
 
     @Column(name = "SUM_")
     protected Integer sum;
+
+    public PlanedPushcare getAvailabilityOfFundsInBudget() {
+        return availabilityOfFundsInBudget == null ? null : PlanedPushcare.fromId(availabilityOfFundsInBudget);
+    }
+
+    public void setAvailabilityOfFundsInBudget(PlanedPushcare availabilityOfFundsInBudget) {
+        this.availabilityOfFundsInBudget = availabilityOfFundsInBudget == null ? null : availabilityOfFundsInBudget.getId();
+    }
 
     public Integer getPlanedPushcarePriceWithVAT() {
         return planedPushcarePriceWithVAT;
