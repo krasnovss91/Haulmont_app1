@@ -47,8 +47,20 @@ public class Request extends TsCard {
     @JoinColumn(name = "TYPE_OF_TRANSPORT_ID")
     protected TypeOfTransport typeOfTransport;
 
+    @Column(name = "FARE")
+    protected Integer fare;
+
     @Column(name = "HOTEL")
     protected String hotel;
+
+    @Column(name = "COST_OF_LIVING")
+    protected Integer costOfLiving;
+
+    @Column(name = "DAILY_ALLOWANCE")
+    protected Integer dailyAllowance;
+
+    @Column(name = "TOTAL_COST")
+    protected Integer totalCost;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "BOOKING_ID")
@@ -65,6 +77,38 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public Integer getTotalCost() {
+        return totalCost;
+    }
+
+    public void setTotalCost(Integer totalCost) {
+        this.totalCost = totalCost;
+    }
+
+    public Integer getDailyAllowance() {
+        return dailyAllowance;
+    }
+
+    public void setDailyAllowance(Integer dailyAllowance) {
+        this.dailyAllowance = dailyAllowance;
+    }
+
+    public Integer getCostOfLiving() {
+        return costOfLiving;
+    }
+
+    public void setCostOfLiving(Integer costOfLiving) {
+        this.costOfLiving = costOfLiving;
+    }
+
+    public Integer getFare() {
+        return fare;
+    }
+
+    public void setFare(Integer fare) {
+        this.fare = fare;
+    }
 
     public Numerator getNumber() {
         return number;
