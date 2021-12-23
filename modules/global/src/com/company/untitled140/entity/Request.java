@@ -45,6 +45,10 @@ public class Request extends TsCard {
     @Column(name = "HOTEL")
     protected String hotel;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "BOOKING_ID")
+    protected Booking booking;
+
     @Column(name = "RECIPIENT_ORGANIZATION")
     protected String recipientOrganization;
 
@@ -56,6 +60,14 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public Booking getBooking() {
+        return booking;
+    }
+
+    public void setBooking(Booking booking) {
+        this.booking = booking;
+    }
 
     public TypeOfTransport getTypeOfTransport() {
         return typeOfTransport;
