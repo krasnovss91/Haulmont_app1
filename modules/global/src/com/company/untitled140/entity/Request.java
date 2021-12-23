@@ -4,6 +4,7 @@ import com.haulmont.cuba.core.entity.Category;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.Listeners;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
+import com.haulmont.cuba.security.entity.User;
 import com.haulmont.thesis.core.entity.Numerator;
 import com.haulmont.thesis.core.entity.TsCard;
 
@@ -20,9 +21,17 @@ import java.util.Date;
 public class Request extends TsCard {
     private static final long serialVersionUID = 6935893211447730139L;
 
+    @Temporal(TemporalType.DATE)
+    @Column(name = "DATE_")
+    protected Date date;
+
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "NUMBER_ID")
     protected Numerator number;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "INITIATOR_ID")
+    protected User initiator;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CATEGORY_OF_REQUEST_ID")
@@ -105,6 +114,22 @@ public class Request extends TsCard {
 
     @Column(name = "SUM_")
     protected Integer sum;
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public User getInitiator() {
+        return initiator;
+    }
+
+    public void setInitiator(User initiator) {
+        this.initiator = initiator;
+    }
 
     public Integer getSum() {
         return sum;
