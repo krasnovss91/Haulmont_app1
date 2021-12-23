@@ -8,6 +8,7 @@ import com.haulmont.thesis.core.entity.Numerator;
 import com.haulmont.thesis.core.entity.TsCard;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @DiscriminatorValue("2000")
 @Table(name = "UNTITLED140_REQUEST")
@@ -53,6 +54,14 @@ public class Request extends TsCard {
     @Column(name = "HOTEL")
     protected String hotel;
 
+    @Temporal(TemporalType.DATE)
+    @Column(name = "ARRIVAL_DATE")
+    protected Date arrivalDate;
+
+    @Temporal(TemporalType.DATE)
+    @Column(name = "DEPARTURE_DATE")
+    protected Date departureDate;
+
     @Column(name = "COST_OF_LIVING")
     protected Integer costOfLiving;
 
@@ -77,6 +86,22 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public Date getDepartureDate() {
+        return departureDate;
+    }
+
+    public void setDepartureDate(Date departureDate) {
+        this.departureDate = departureDate;
+    }
+
+    public Date getArrivalDate() {
+        return arrivalDate;
+    }
+
+    public void setArrivalDate(Date arrivalDate) {
+        this.arrivalDate = arrivalDate;
+    }
 
     public Integer getTotalCost() {
         return totalCost;
