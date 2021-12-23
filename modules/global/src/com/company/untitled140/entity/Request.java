@@ -29,8 +29,52 @@ public class Request extends TsCard {
     @Column(name = "WAY")
     protected String way;
 
+    @Column(name = "HOTEL")
+    protected String hotel;
+
+    @Column(name = "RECIPIENT_ORGANIZATION")
+    protected String recipientOrganization;
+
+    @Column(name = "ADDRESS_OF_DELIVERY")
+    protected String addressOfDelivery;
+
+    @Column(name = "DELIVERY_TIME_REQUEST")
+    protected String deliveryTimeRequest;
+
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public String getHotel() {
+        return hotel;
+    }
+
+    public void setHotel(String hotel) {
+        this.hotel = hotel;
+    }
+
+    public String getRecipientOrganization() {
+        return recipientOrganization;
+    }
+
+    public void setRecipientOrganization(String recipientOrganization) {
+        this.recipientOrganization = recipientOrganization;
+    }
+
+    public String getDeliveryTimeRequest() {
+        return deliveryTimeRequest;
+    }
+
+    public void setDeliveryTimeRequest(String deliveryTimeRequest) {
+        this.deliveryTimeRequest = deliveryTimeRequest;
+    }
+
+    public String getAddressOfDelivery() {
+        return addressOfDelivery;
+    }
+
+    public void setAddressOfDelivery(String addressOfDelivery) {
+        this.addressOfDelivery = addressOfDelivery;
+    }
 
     public String getNameOfCargo() {
         return nameOfCargo;
