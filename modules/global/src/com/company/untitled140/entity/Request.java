@@ -41,6 +41,9 @@ public class Request extends TsCard {
     @JoinColumn(name = "TYPE_OF_PUSHCARE_ID")
     protected TypeOfPushcare typeOfPushcare;
 
+    @Column(name = "PLANED_PUSHCARE_PRICE_WITH_VAT")
+    protected Integer planedPushcarePriceWithVAT;
+
     @Column(name = "DESCRIPTIONS")
     protected String descriptions;
 
@@ -114,6 +117,14 @@ public class Request extends TsCard {
 
     @Column(name = "SUM_")
     protected Integer sum;
+
+    public Integer getPlanedPushcarePriceWithVAT() {
+        return planedPushcarePriceWithVAT;
+    }
+
+    public void setPlanedPushcarePriceWithVAT(Integer planedPushcarePriceWithVAT) {
+        this.planedPushcarePriceWithVAT = planedPushcarePriceWithVAT;
+    }
 
     public Date getDate() {
         return date;
