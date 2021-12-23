@@ -4,9 +4,7 @@ import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Table(name = "UNTITLED140_EXPENCE_ITEM")
@@ -32,6 +30,16 @@ public class ExpenceItem extends StandardEntity {
     @Column(name = "DISPLAY", nullable = false, length = 50)
     @NotNull
     protected String display;
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "expenceItem")
+    protected Request request;
+
+    public Request getRequest() {
+        return request;
+    }
+
+    public void setRequest(Request request) {
+        this.request = request;
+    }
 
     public void setLargeCode(Integer largeCode) {
         this.largeCode = largeCode;

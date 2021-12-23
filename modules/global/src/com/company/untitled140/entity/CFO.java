@@ -4,9 +4,7 @@ import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Table(name = "UNTITLED140_CFO")
@@ -28,6 +26,16 @@ public class CFO extends StandardEntity {
     @Column(name = "DISPLAY", nullable = false, length = 50)
     @NotNull
     protected String display;
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "cfo")
+    protected Request request;
+
+    public Request getRequest() {
+        return request;
+    }
+
+    public void setRequest(Request request) {
+        this.request = request;
+    }
 
     public String getDisplay() {
         return display;

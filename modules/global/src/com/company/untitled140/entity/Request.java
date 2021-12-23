@@ -95,6 +95,41 @@ public class Request extends TsCard {
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "CFO_ID")
+    protected CFO cfo;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "EXPENCE_ITEM_ID")
+    protected ExpenceItem expenceItem;
+
+    @Column(name = "SUM_")
+    protected Integer sum;
+
+    public Integer getSum() {
+        return sum;
+    }
+
+    public void setSum(Integer sum) {
+        this.sum = sum;
+    }
+
+    public ExpenceItem getExpenceItem() {
+        return expenceItem;
+    }
+
+    public void setExpenceItem(ExpenceItem expenceItem) {
+        this.expenceItem = expenceItem;
+    }
+
+    public CFO getCfo() {
+        return cfo;
+    }
+
+    public void setCfo(CFO cfo) {
+        this.cfo = cfo;
+    }
+
     public Date getBusinessTripEnd() {
         return businessTripEnd;
     }
