@@ -44,6 +44,14 @@ public class Request extends TsCard {
     @Column(name = "WAY")
     protected String way;
 
+    @Temporal(TemporalType.DATE)
+    @Column(name = "BUSINES_TRIP_START")
+    protected Date businesTripStart;
+
+    @Temporal(TemporalType.DATE)
+    @Column(name = "BUSINESS_TRIP_END")
+    protected Date businessTripEnd;
+
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "TYPE_OF_TRANSPORT_ID")
     protected TypeOfTransport typeOfTransport;
@@ -86,6 +94,22 @@ public class Request extends TsCard {
 
     @Column(name = "NAME_OF_CARGO")
     protected String nameOfCargo;
+
+    public Date getBusinessTripEnd() {
+        return businessTripEnd;
+    }
+
+    public void setBusinessTripEnd(Date businessTripEnd) {
+        this.businessTripEnd = businessTripEnd;
+    }
+
+    public Date getBusinesTripStart() {
+        return businesTripStart;
+    }
+
+    public void setBusinesTripStart(Date businesTripStart) {
+        this.businesTripStart = businesTripStart;
+    }
 
     public Date getDepartureDate() {
         return departureDate;
