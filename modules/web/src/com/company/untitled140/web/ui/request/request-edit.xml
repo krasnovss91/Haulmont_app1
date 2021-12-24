@@ -28,8 +28,8 @@
         <split id="split" orientation="vertical" pos="70" width="100%">
             <hbox id="mainPane" height="100%" width="100%">
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
-                    <tabSheet id="tabsheet" height="100%">
-                        <tab id="mainTab" caption="msg://mainTab" margin="true">
+                    <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
+                        <tab id="details" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"
                                       height="100%" width="100%">
                                 <scrollBox id="infoScrollBox" scrollBars="both">
@@ -93,7 +93,7 @@
                              expand="securityFrame">
                             <frame id="securityFrame" screen="securityFrame"/>
                         </tab>
-                    </tabSheet> <!-- здесь 2 вкладки- детали и ЦФО -->
+                    </tabSheet>
                     <vbox width="220px" margin="false;false;false;true" spacing="true" height="100%">
                         <scrollBox id="actionsFrameScroll" height="100%" width="100%" spacing="true">
                             <vbox id="actionsPane" stylename="edit-area" margin="true,true,true,false"
