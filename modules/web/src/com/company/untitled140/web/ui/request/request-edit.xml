@@ -40,6 +40,10 @@
                             <lookupPickerField datasource="requestDs" property="initiator"/>
                            <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
+                            <textField datasource="requestDs" property="justificationForExclusivity"/>
+                            <textField datasource="requestDs" property="purposeOfBusinessTrip"/>
+                            <textField datasource="requestDs" property="way"/>
+                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT"/>
                             <textField datasource="requestDs" property="recipientOrganization"/>
                             <textField datasource="requestDs" property="addressOfDelivery"/>
                             <textField datasource="requestDs" property="nameOfCargo"/>
