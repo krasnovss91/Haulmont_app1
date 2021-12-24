@@ -21,7 +21,7 @@ import java.util.Date;
 @PrimaryKeyJoinColumn(name = "CARD_ID", referencedColumnName = "ID")
 public class Request extends TsCard {
     private static final long serialVersionUID = 6935893211447730139L;
-/*
+
     @Temporal(TemporalType.DATE)
     @Column(name = "DATE_")
     protected Date date;
@@ -33,9 +33,7 @@ public class Request extends TsCard {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "INITIATOR_ID")
     protected User initiator;
-
- */
-
+    
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CATEGORY_OF_REQUEST_ID")
     protected Category categoryOfRequest;
