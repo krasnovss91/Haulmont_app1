@@ -1,0 +1,131 @@
+Performance Statistics   2021-12-22 16:38:00 - 2021-12-22 16:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         23,0          23          23         0,0           1
+MenuItem.untitled140$TypeOfPushcare.lookup            1964,0        1964        1964         0,0           1
+TDS null                                                88,0          88          88         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     146,0         146         146         0,0           1
+loginWindow#init                                        66,0          66          66         0,0           1
+loginWindow#inject                                     126,0         126         126         0,0           1
+loginWindow#load                                      1233,0        1233        1233         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         13,0           0          26        13,0           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               4,0           4           4         0,0           1
+lookupWindowActions#load                                 4,0           4           4         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       20,0          20          20         0,0           1
+mainWindow#init                                        347,0         347         347         0,0           1
+mainWindow#inject                                       12,0          12          12         0,0           1
+mainWindow#load                                       1512,0        1512        1512         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           7,0           0          14         7,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    3,0           3           3         0,0           1
+mainWindow.voiceControlConsole#load                     34,0          34          34         0,0           1
+untitled140$TypeOfPushcare.lookup#afterShow              0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup#beforeShow             0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup#create                15,0          15          15         0,0           1
+untitled140$TypeOfPushcare.lookup#init                  14,0          14          14         0,0           1
+untitled140$TypeOfPushcare.lookup#inject                26,0          26          26         0,0           1
+untitled140$TypeOfPushcare.lookup#load                 932,0         932         932         0,0           1
+untitled140$TypeOfPushcare.lookup#uiPermissions          0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup#xml                    1,0           0           2         1,0           2
+untitled140$TypeOfPushcare.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$TypeOfPushcare.lookup@typeOfPushcaresDs       175,0         175         175         0,0           1
+voiceControlConsole#create                              79,0          79          79         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-12-22 17:10:00 - 2021-12-22 17:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         47,0          47          47         0,0           1
+TDS null                                               111,0         111         111         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     552,0         552         552         0,0           1
+loginWindow#init                                        37,0          37          37         0,0           1
+loginWindow#inject                                     212,0         212         212         0,0           1
+loginWindow#load                                       806,0         806         806         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         20,5           0          41        20,5           2
+mainWindow#create                                       12,0          12          12         0,0           1
+mainWindow#init                                        388,0         388         388         0,0           1
+mainWindow#inject                                       15,0          15          15         0,0           1
+mainWindow#load                                       2611,0        2611        2611         0,0           1
+mainWindow#xml                                          50,5           0         101        50,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    9,0           9           9         0,0           1
+mainWindow.voiceControlConsole#load                     45,0          45          45         0,0           1
+voiceControlConsole#create                              63,0          63          63         0,0           1
+voiceControlConsole#xml                                  6,0           6           6         0,0           1
+
+Performance Statistics   2021-12-22 17:28:00 - 2021-12-22 17:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-22 17:30:00 - 2021-12-22 17:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         25,0          25          25         0,0           1
+TDS null                                                71,0          71          71         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           2
+loginWindow#beforeShow                                   1,0           0           2         1,0           2
+loginWindow#create                                     125,0           1         249       124,0           2
+loginWindow#init                                        71,5           0         143        71,5           2
+loginWindow#inject                                      91,0           0         182        91,0           2
+loginWindow#load                                       550,5           4        1097       546,5           2
+loginWindow#uiPermissions                               26,5           0          53        26,5           2
+loginWindow#xml                                         24,8           0          99        42,9           4
+mainWindow#create                                       24,0          24          24         0,0           1
+mainWindow#init                                        251,0         251         251         0,0           1
+mainWindow#inject                                       13,0          13          13         0,0           1
+mainWindow#load                                       1919,0        1919        1919         0,0           1
+mainWindow#xml                                           5,5           0          11         5,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
+mainWindow.voiceControlConsole#load                     45,0          45          45         0,0           1
+voiceControlConsole#create                              63,0          63          63         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-12-22 17:44:00 - 2021-12-22 17:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         36,0          36          36         0,0           1
+MenuItem.untitled140$ExpenceItem.lookup               1882,0        1882        1882         0,0           1
+TDS null                                                85,0          85          85         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     112,0         112         112         0,0           1
+loginWindow#init                                        32,0          32          32         0,0           1
+loginWindow#inject                                     103,0         103         103         0,0           1
+loginWindow#load                                       568,0         568         568         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         16,0           0          32        16,0           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               3,0           3           3         0,0           1
+lookupWindowActions#load                                 1,0           1           1         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       22,0          22          22         0,0           1
+mainWindow#init                                        277,0         277         277         0,0           1
+mainWindow#inject                                       17,0          17          17         0,0           1
+mainWindow#load                                       2051,0        2051        2051         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           8,0           0          16         8,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    5,0           5           5         0,0           1
+mainWindow.voiceControlConsole#load                     50,0          50          50         0,0           1
+untitled140$ExpenceItem.lookup#afterShow                 0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup#beforeShow                0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup#create                   14,0          14          14         0,0           1
+untitled140$ExpenceItem.lookup#init                     10,0          10          10         0,0           1
+untitled140$ExpenceItem.lookup#inject                   24,0          24          24         0,0           1
+untitled140$ExpenceItem.lookup#load                    810,0         810         810         0,0           1
+untitled140$ExpenceItem.lookup#uiPermissions             0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup#xml                       0,5           0           1         0,5           2
+untitled140$ExpenceItem.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$ExpenceItem.lookup@expenceItemsDs          185,0         185         185         0,0           1
+voiceControlConsole#create                              65,0          65          65         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+

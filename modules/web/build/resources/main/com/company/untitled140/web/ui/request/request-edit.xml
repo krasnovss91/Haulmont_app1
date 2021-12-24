@@ -50,9 +50,9 @@
                                                     datasource="cardDs"
                                                     stylename="thesis-separator"
                                                     width="${bigFieldWidth}">
-                                            <column width="250px">
+                                       <!--     <column width="250px">
                                                 <field id="number" property="number"/>
-                                            </column>
+                                            </column> -->
                                         </fieldGroup>
                                         <hbox id="signatureBox" spacing="true" margin="true;false;false;false">
                                             <label id="signatureLabel" value="msg://cardSignatureLab"

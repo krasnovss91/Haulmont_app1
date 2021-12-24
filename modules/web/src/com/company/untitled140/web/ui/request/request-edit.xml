@@ -50,9 +50,9 @@
                                                     datasource="cardDs"
                                                     stylename="thesis-separator"
                                                     width="${bigFieldWidth}">
-                                            <column width="250px">
+                                       <!--     <column width="250px">
                                                 <field id="number" property="number"/>
-                                            </column>
+                                            </column> -->
                                         </fieldGroup>
                                         <hbox id="signatureBox" spacing="true" margin="true;false;false;false">
                                             <label id="signatureLabel" value="msg://cardSignatureLab"
@@ -93,7 +93,7 @@
                              expand="securityFrame">
                             <frame id="securityFrame" screen="securityFrame"/>
                         </tab>
-                    </tabSheet>
+                    </tabSheet> <!-- здесь 2 вкладки- детали и ЦФО -->
                     <vbox width="220px" margin="false;false;false;true" spacing="true" height="100%">
                         <scrollBox id="actionsFrameScroll" height="100%" width="100%" spacing="true">
                             <vbox id="actionsPane" stylename="edit-area" margin="true,true,true,false"
