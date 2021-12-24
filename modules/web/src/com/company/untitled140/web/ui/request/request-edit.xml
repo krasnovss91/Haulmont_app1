@@ -32,8 +32,11 @@
                         <tab id="details">
 
                         </tab>
-                        <tab id="CFO">
-                            
+                        <tab id="CFO"> <!--сюда ссылки на справочники ЦФО и Статья Расходов и Сумму, таблица  -->
+
+                            <table height="100px" width="200px"/>
+                            <lookupPickerField/>
+                            <lookupPickerField/>
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"

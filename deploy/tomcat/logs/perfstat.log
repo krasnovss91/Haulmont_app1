@@ -137,3 +137,26 @@ Performance Statistics   2021-12-24 11:05:00 - 2021-12-24 11:06:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 Scheduling.processTasks                                 39,2           6         165        38,4          60
 
+Performance Statistics   2021-12-24 12:42:00 - 2021-12-24 12:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,2           0          17         1,2         276
+Messages.searchFiles                                     0,1           0          24         1,4         276
+Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
+
+Performance Statistics   2021-12-24 12:43:00 - 2021-12-24 12:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                            4470,0        4470        4470         0,0           1
+LoadClass                                                0,1           0          17         0,5        3189
+Messages.searchClasspath                                 0,1           0         308         2,7       14416
+Messages.searchFiles                                     0,0           0          11         0,1       14416
+Messages.searchRemotely                                  1,5           0         562        19,1         873
+Metadata.replaceExtendedMetaClasses                      2,7           2           3         0,5           3
+Scheduling.processTasks                                132,6          15         607       135,8          45
+SearchFolders                                           76,0          76          76         0,0           1
+Thesis:loadCalendarEvents                               17,0          17          17         0,0           1
+Thesis:loadCardDeadlineInfoTree                         34,0          34          34         0,0           1
+ViewRepository.init.ExtViewRepositoryImpl               96,0          96          96         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           258,0         258         258         0,0           1
+ViewRepository.replaceOverridden                         0,5           0          12         1,9          42
+WebJARs                                                 13,0          13          13         0,0           1
+

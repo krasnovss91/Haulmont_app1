@@ -223,3 +223,29 @@ Tag                                                  Avg(ms)         Min        
 Performance Statistics   2021-12-24 11:04:00 - 2021-12-24 11:06:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
+Performance Statistics   2021-12-24 12:42:00 - 2021-12-24 12:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         43,0          43          43         0,0           1
+TDS null                                               862,0         862         862         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     199,0         199         199         0,0           1
+loginWindow#init                                        39,0          39          39         0,0           1
+loginWindow#inject                                     190,0         190         190         0,0           1
+loginWindow#load                                       915,0         915         915         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                          6,0           0          12         6,0           2
+mainWindow#afterShow                                     4,0           4           4         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       23,0          23          23         0,0           1
+mainWindow#init                                       1885,0        1885        1885         0,0           1
+mainWindow#inject                                       21,0          21          21         0,0           1
+mainWindow#load                                       2249,0        2249        2249         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                          19,5           0          39        19,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    5,0           5           5         0,0           1
+mainWindow.voiceControlConsole#load                     78,0          78          78         0,0           1
+voiceControlConsole#create                              58,0          58          58         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
