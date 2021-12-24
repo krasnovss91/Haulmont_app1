@@ -24,8 +24,8 @@
             </query>
         </collectionDatasource>
 
-        <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local">
-        </datasource>
+        <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
+        <datasource id="ecpenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
 
     </dsContext>
     <layout expand="split" spacing="true">
@@ -39,8 +39,9 @@
                         <tab id="CFO"> <!--сюда ссылки на справочники ЦФО и Статья Расходов и Сумму, таблица  -->
 
                           <!--  <table height="100px" width="200px"/> -->
-                            <lookupPickerField datasource="cfoDs"/>
-                            <lookupPickerField/>
+                            <!--3 значение- сумма из сущности Заявка -->
+                            <lookupPickerField datasource="cfoDs" property="name"/>
+                            <lookupPickerField datasource="ecpenceItemDs" property="name"/>
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"
