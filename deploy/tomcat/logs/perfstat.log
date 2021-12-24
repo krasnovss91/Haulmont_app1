@@ -252,3 +252,68 @@ Performance Statistics   2021-12-24 13:56:00 - 2021-12-24 13:57:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 Scheduling.processTasks                                 32,8           6         166        31,2          60
 
+Performance Statistics   2021-12-24 14:41:00 - 2021-12-24 14:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,2           0          17         1,2         276
+Messages.searchFiles                                     0,1           0          22         1,3         276
+Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
+
+Performance Statistics   2021-12-24 14:42:00 - 2021-12-24 14:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,1           0           1         0,2          18
+Messages.searchClasspath                                 0,2           0          12         0,9         389
+Messages.searchFiles                                     0,0           0           0         0,0         389
+Metadata.replaceExtendedMetaClasses                      2,3           2           3         0,5           3
+Scheduling.processTasks                                 83,7          16         386        86,1          58
+ViewRepository.init.ExtViewRepositoryImpl               88,0          88          88         0,0           1
+ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+WebJARs                                                 13,0          13          13         0,0           1
+
+Performance Statistics   2021-12-24 14:43:00 - 2021-12-24 14:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,7          12         154        22,4          60
+
+Performance Statistics   2021-12-24 14:44:00 - 2021-12-24 14:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 77,5          10         494        97,3          60
+
+Performance Statistics   2021-12-24 14:45:00 - 2021-12-24 14:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 67,2           7         503        88,5          60
+
+Performance Statistics   2021-12-24 14:46:00 - 2021-12-24 14:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,0           6         103        21,2          60
+
+Performance Statistics   2021-12-24 14:47:00 - 2021-12-24 14:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 24,1           8         123        20,7          60
+
+Performance Statistics   2021-12-24 14:48:00 - 2021-12-24 14:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 20,3           6          71        15,8          60
+
+Performance Statistics   2021-12-24 14:49:00 - 2021-12-24 14:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,8           9         118        22,4          60
+
+Performance Statistics   2021-12-24 14:50:00 - 2021-12-24 14:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,4           6         123        24,3          60
+
+Performance Statistics   2021-12-24 14:51:00 - 2021-12-24 14:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 37,4           6         240        40,2          60
+
+Performance Statistics   2021-12-24 14:52:00 - 2021-12-24 14:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                1,3           0           3         1,2           3
+Messages.searchClasspath                                 0,0           0         129         1,4        9400
+Messages.searchFiles                                     0,0           0          22         0,2        9400
+Messages.searchRemotely                                  1,0           0         134         5,9         575
+Scheduling.processTasks                                 42,4           9         252        47,4          60
+Thesis:loadCalendarEvents                              215,0         215         215         0,0           1
+Thesis:loadCardDeadlineInfoTree                         16,0          16          16         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           114,0         114         114         0,0           1
+ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+

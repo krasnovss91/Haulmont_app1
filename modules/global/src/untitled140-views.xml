@@ -30,4 +30,9 @@
         <property name="createTs"/>
         <property name="creator" view="user-minimal"/>
     </view>
+    <!--
+    <view entity="untitled140$Request" name="sum" >
+
+    </view>
+    -->
 </views>
