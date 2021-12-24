@@ -5,6 +5,7 @@ import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.Listeners;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
 import com.haulmont.cuba.security.entity.User;
+import com.haulmont.thesis.core.entity.Employee;
 import com.haulmont.thesis.core.entity.Numerator;
 import com.haulmont.thesis.core.entity.TsCard;
 
@@ -52,6 +53,10 @@ public class Request extends TsCard {
 
     @Column(name = "JUSTIFICATION_FOR_EXCLUSIVITY")
     protected String justificationForExclusivity;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "EMPLOYEE_ID")
+    protected Employee employee;
 
     @Column(name = "PURPOSE_OF_BUSINESS_TRIP")
     protected String purposeOfBusinessTrip;
@@ -120,6 +125,14 @@ public class Request extends TsCard {
 
     @Column(name = "SUM_")
     protected Integer sum;
+
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
+    }
 
     public PlanedPushcare getAvailabilityOfFundsInBudget() {
         return availabilityOfFundsInBudget == null ? null : PlanedPushcare.fromId(availabilityOfFundsInBudget);
