@@ -33,7 +33,7 @@ public class Request extends TsCard {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "INITIATOR_ID")
     protected User initiator;
-    
+
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CATEGORY_OF_REQUEST_ID")
     protected Category categoryOfRequest;

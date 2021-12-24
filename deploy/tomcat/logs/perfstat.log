@@ -317,3 +317,43 @@ Thesis:loadCardDeadlineInfoTree                         16,0          16        
 ViewRepository.init.ViewRepositoryClientImpl           114,0         114         114         0,0           1
 ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
 
+Performance Statistics   2021-12-24 16:08:00 - 2021-12-24 16:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0,1           0           8         0,7         276
+Messages.searchFiles                                     0,1           0          18         1,1         276
+Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           1
+
+Performance Statistics   2021-12-24 16:09:00 - 2021-12-24 16:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,1           0          14         0,5         990
+Messages.searchClasspath                                 0,1           0          23         1,0         884
+Messages.searchFiles                                     0,0           0           2         0,1         884
+Messages.searchRemotely                                 20,4           0         298        71,7          16
+Metadata.replaceExtendedMetaClasses                      3,0           3           3         0,0           3
+Scheduling.processTasks                                 77,6          16         400        68,4          55
+ViewRepository.init.ExtViewRepositoryImpl               92,0          92          92         0,0           1
+ViewRepository.replaceOverridden                         0,0           0           0         0,0          21
+WebJARs                                                149,0         149         149         0,0           1
+
+Performance Statistics   2021-12-24 16:10:00 - 2021-12-24 16:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                               36,0          36          36         0,0           1
+Messages.searchClasspath                                 1,1           0         180        10,9         861
+Messages.searchFiles                                     0,0           0           0         0,0         861
+Messages.searchRemotely                                  8,7           0         178        29,2          51
+Scheduling.processTasks                                 70,8           7         472        91,9          60
+
+Performance Statistics   2021-12-24 16:11:00 - 2021-12-24 16:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                            4032,0        4032        4032         0,0           1
+LoadClass                                                0,1           0          15         0,6        3164
+Messages.searchClasspath                                 0,0           0          24         0,3       12932
+Messages.searchFiles                                     0,0           0          12         0,1       12932
+Messages.searchRemotely                                  0,6           0          26         1,8         806
+Scheduling.processTasks                                 26,4           5         101        17,6          60
+SearchFolders                                           35,0          35          35         0,0           1
+Thesis:loadCalendarEvents                                3,0           3           3         0,0           1
+Thesis:loadCardDeadlineInfoTree                         13,0          13          13         0,0           1
+ViewRepository.init.ViewRepositoryClientImpl           107,0         107         107         0,0           1
+ViewRepository.replaceOverridden                         0,3           0           5         1,1          21
+

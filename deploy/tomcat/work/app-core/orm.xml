@@ -765,6 +765,13 @@
       </many-to-one>
     </attributes>
   </entity>
+  <entity class="com.company.untitled140.entity.Request" name="untitled140$Request">
+    <attributes>
+      <one-to-one name="initiator" target-entity="com.haulmont.thesis.core.entity.TsUser" fetch="LAZY">
+        <join-column name="INITIATOR_ID"/>
+      </one-to-one>
+    </attributes>
+  </entity>
   <embeddable class="com.haulmont.workflow.core.entity.ProcFamily">
     <attributes>
       <many-to-one name="card" target-entity="com.haulmont.thesis.core.entity.TsCard" fetch="LAZY">
