@@ -23,6 +23,10 @@
                 ]]>
             </query>
         </collectionDatasource>
+
+        <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local">
+        </datasource>
+
     </dsContext>
     <layout expand="split" spacing="true">
         <split id="split" orientation="vertical" pos="70" width="100%">
@@ -34,8 +38,8 @@
                         </tab>
                         <tab id="CFO"> <!--сюда ссылки на справочники ЦФО и Статья Расходов и Сумму, таблица  -->
 
-                            <table height="100px" width="200px"/>
-                            <lookupPickerField/>
+                          <!--  <table height="100px" width="200px"/> -->
+                            <lookupPickerField datasource="cfoDs"/>
                             <lookupPickerField/>
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
