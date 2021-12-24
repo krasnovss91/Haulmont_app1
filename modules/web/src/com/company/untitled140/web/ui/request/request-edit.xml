@@ -29,7 +29,13 @@
             <hbox id="mainPane" height="100%" width="100%">
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
                     <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
-                        <tab id="details" caption="msg://mainTab" margin="true">
+                        <tab id="details">
+
+                        </tab>
+                        <tab id="CFO">
+                            
+                        </tab>
+                        <tab id="mainTab" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"
                                       height="100%" width="100%">
                                 <scrollBox id="infoScrollBox" scrollBars="both">
