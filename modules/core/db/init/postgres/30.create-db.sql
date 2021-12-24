@@ -98,3 +98,32 @@ values (newid(), now(), 'system', 1, now(), null, null, null, 20, 'untitled140$B
 insert into SEC_PERMISSION (ID, CREATE_TS, CREATED_BY, VERSION, UPDATE_TS, UPDATED_BY, DELETE_TS, DELETED_BY, PERMISSION_TYPE, TARGET, VALUE_, ROLE_ID)
 values (newid(), now(), 'system', 1, now(), null, null, null, 20, 'untitled140$Booking:delete', 1, (select ID from SEC_ROLE where NAME = 'ReferenceEditor'))^
 -- end insert secPermissions for Booking
+-- begin insert default numerator for Request
+CREATE OR REPLACE FUNCTION baseInsert()
+RETURNS integer
+AS $$
+DECLARE
+    cnt integer = 0;
+BEGIN
+cnt = (select count(id) from DF_NUMERATOR where CODE = 'RequestNumerator' and delete_ts is null);
+if(cnt = 0) then
+    INSERT INTO DF_NUMERATOR (ID, CREATE_TS, CREATED_BY, VERSION, CODE, NUMERATOR_FORMAT, SCRIPT_ENABLED,
+                              PERIODICITY, NUMBER_INITIAL_VALUE, LOC_NAME)
+    VALUES ('b00e0271-7fa1-4700-96fa-5b2a3051ab97', now(), 'system', 1, 'RequestNumerator', '[number]', FALSE, 'Y', 1,
+            '{"captionWithLanguageList":[{"language":"ru","caption":"Заявка"},{"language":"en","caption":"Request"}]}'
+    );
+end if;
+
+return 0;
+END;
+$$
+LANGUAGE plpgsql;
+^
+
+select baseInsert()^
+drop function if exists baseInsert()^
+-- end insert default numerator for Request
+-- begin insert secConstraints for Request
+insert into SEC_CONSTRAINT (ID, CREATE_TS, CREATED_BY, ENTITY_NAME, JOIN_CLAUSE, WHERE_CLAUSE, GROUP_ID)
+       values (newid(), now(), 'system', 'untitled140$Request', 'left outer join {E}.aclList acl', 'acl.user.id = :session$userId or acl.global = true', '8e6306e2-9e10-414a-b437-24c91ffef804')^
+-- end insert secConstraints for Request

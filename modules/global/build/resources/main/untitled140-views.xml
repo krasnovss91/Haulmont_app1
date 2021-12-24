@@ -11,4 +11,23 @@
     <view entity="untitled140$ExpenceItem" name="edit" extends="_local"/>
     <view entity="untitled140$Booking" name="browse" extends="_local"/>
     <view entity="untitled140$Booking" name="edit" extends="_local"/>
+    <view entity="untitled140$Request" name="browse" extends="_local">
+        <property name="proc" view="_local"/>
+        <property name="substitutedCreator" view="_minimal"/>
+        <property name="createdBy"/>
+        <property name="createTs"/>
+    </view>
+    <view entity="untitled140$Request" name="edit" extends="_local">
+        <property name="cardAdditionalInfo" view="_local"/>
+        <property name="proc" view="_local"/>
+        <property name="parentCard" view="card-tree-for-parent"/>
+        <property name="substitutedCreator" view="user-minimal"/>
+        <property name="category" view="_minimal"/>
+        <property name="procs" view="card-edit"/>
+        <property name="roles" view="card-edit"/>
+        <property name="attachments" view="card-edit"/>
+        <property name="createdBy"/>
+        <property name="createTs"/>
+        <property name="creator" view="user-minimal"/>
+    </view>
 </views>
