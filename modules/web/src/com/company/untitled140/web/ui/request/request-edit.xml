@@ -43,6 +43,11 @@
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
                             <textField datasource="requestDs" property="purposeOfBusinessTrip"/>
                             <textField datasource="requestDs" property="way"/>
+                            <textField datasource="requestDs" property="fare"/>
+                            <textField datasource="requestDs" property="hotel"/>
+                            <textField datasource="requestDs" property="costOfLiving"/>
+                            <textField datasource="requestDs" property="dailyAllowance"/>
+                            <textField datasource="requestDs" property="totalCost"/>
                             <textField datasource="requestDs" property="planedPushcarePriceWithVAT"/>
                             <textField datasource="requestDs" property="recipientOrganization"/>
                             <textField datasource="requestDs" property="addressOfDelivery"/>
@@ -50,10 +55,7 @@
                             <textField datasource="requestDs" property="deliveryTimeRequest"/>
                             <textField datasource="requestDs" property="descriptions"/>
                         </tab>
-                        <tab id="CFO"> <!--сюда ссылки на справочники ЦФО и Статья Расходов и Сумму, таблица  -->
-
-                          <!--  <table height="100px" width="200px"/> -->
-                            <!--3 значение- сумма из сущности Заявка -->
+                        <tab id="CFO"> 
                             <lookupPickerField datasource="cfoDs" property="name"/>
                             <lookupPickerField datasource="ecpenceItemDs" property="name"/>
                             <currencyField datasource="requestDs" property="sum"/>
