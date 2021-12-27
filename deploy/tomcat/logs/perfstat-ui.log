@@ -302,3 +302,42 @@ untitled140$CFO.lookup#xml                             266,5           0        
 untitled140$CFO.lookup.lookupWindowActions#init          0,0           0           0         0,0           1
 untitled140$CFO.lookup@cFoesDs                           8,0           8           8         0,0           1
 
+Performance Statistics   2021-12-27 18:26:00 - 2021-12-27 18:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         30,0          30          30         0,0           1
+TDS null                                                79,0          79          79         0,0           1
+cardTreeFrame#create                                     2,0           2           2         0,0           1
+cardTreeFrame#xml                                        0,5           0           1         0,5           2
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     311,0         311         311         0,0           1
+loginWindow#init                                       102,0         102         102         0,0           1
+loginWindow#inject                                     147,0         147         147         0,0           1
+loginWindow#load                                       604,0         604         604         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         35,0           0          70        35,0           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       28,0          28          28         0,0           1
+mainWindow#init                                        222,0         222         222         0,0           1
+mainWindow#inject                                       14,0          14          14         0,0           1
+mainWindow#load                                       1488,0        1488        1488         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           6,5           0          13         6,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
+mainWindow.voiceControlConsole#load                     42,0          42          42         0,0           1
+resolutionsFrame#create                                 48,0          48          48         0,0           1
+resolutionsFrame#xml                                     2,0           0           4         2,0           2
+untitled140$Request.lookup#create                       14,0          14          14         0,0           1
+untitled140$Request.lookup#init                        221,0         221         221         0,0           1
+untitled140$Request.lookup#inject                       31,0          31          31         0,0           1
+untitled140$Request.lookup#load                       1406,0        1406        1406         0,0           1
+untitled140$Request.lookup#xml                           0,5           0           1         0,5           2
+untitled140$Request.lookup.cardTreeFrame#inject          4,0           4           4         0,0           1
+untitled140$Request.lookup.cardTreeFrame#load           69,0          69          69         0,0           1
+untitled140$Request.lookup.resolutionsFrame#inject         6,0           6           6         0,0           1
+untitled140$Request.lookup.resolutionsFrame#load       222,0         222         222         0,0           1
+voiceControlConsole#create                              68,0          68          68         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+

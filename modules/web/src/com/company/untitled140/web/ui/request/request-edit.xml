@@ -34,8 +34,13 @@
                 <![CDATA[select c from untitled140$CFO"]]>
             </query>
         </collectionDatasource>
+        <collectionDatasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_minimal">
+            <query>
+                <![CDATA[select i from untitled140$ExpenceItem]]>
+            </query>
+        </collectionDatasource>
        <!-- <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/> -->
-        <datasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
+      <!--  <datasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>  -->
         <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/>
 
     </dsContext>
@@ -83,7 +88,7 @@
                         </tab>
                         <tab id="CFO">
                             <lookupPickerField datasource="cfoDs" property="name"/>
-                            <lookupPickerField datasource="ecpenceItemDs" property="name"/>
+                            <lookupPickerField datasource="expenceItemDs" property="name"/>
                             <currencyField datasource="requestDs" property="sum"/>
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
