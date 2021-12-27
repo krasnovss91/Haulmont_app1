@@ -28,8 +28,14 @@
         <collectionDatasource id="employeesDs" class="com.company.untitled140.entity.Request" view="employeeName-view"/>
         <collectionDatasource id="positionsDs" class="com.company.untitled140.entity.Request" view="employeePosition-view"/>
 
-        <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
-        <datasource id="ecpenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
+
+        <collectionDatasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_minimal">
+            <query>
+                <![CDATA[select c from untitled140$CFO"]]>
+            </query>
+        </collectionDatasource>
+       <!-- <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/> -->
+        <datasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
         <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/>
 
     </dsContext>

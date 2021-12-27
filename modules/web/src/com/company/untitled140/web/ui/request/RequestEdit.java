@@ -24,7 +24,6 @@ public class RequestEdit<T extends TsCard> extends AbstractCardEditor<T> {
     @Inject
     protected NumerationService numerationService;
     
-
     @Override
     protected String getHiddenTabsConfig() {
         return "processTab,securityTab,cardLogTab";
