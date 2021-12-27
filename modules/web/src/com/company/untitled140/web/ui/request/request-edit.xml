@@ -42,6 +42,7 @@
                            <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
+                            <lookupPickerField datasource="requestDs" property="employee"/> <!--использовать employeeName-view -->
                             <textField datasource="requestDs" property="purposeOfBusinessTrip"/>
                             <textField datasource="requestDs" property="way"/>
                             <dateField datasource="requestDs" property="businesTripStart"/>
