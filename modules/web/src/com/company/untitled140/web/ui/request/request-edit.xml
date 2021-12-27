@@ -22,7 +22,11 @@
                 select c from wf$CardRelation c where (c.card.id = :ds$cardDs or c.relatedCard.id = :ds$cardDs)
                 ]]>
             </query>
+
         </collectionDatasource>
+
+        <collectionDatasource id="employeesDs" class="com.company.untitled140.entity.Request" view="employeeName-view"/>
+        <collectionDatasource id="positionsDs" class="com.company.untitled140.entity.Request" view="employeePosition-view"/>
 
         <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
         <datasource id="ecpenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
@@ -42,7 +46,7 @@
                            <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
-                            <lookupPickerField datasource="requestDs" property="employee"/>
+                          <!--  <lookupPickerField datasource="requestDs" property="employee"/>  -->
 
                             <!--использовать employeeName-view -->
                             <!--        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit">
