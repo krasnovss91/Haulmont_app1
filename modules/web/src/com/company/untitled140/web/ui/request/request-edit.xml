@@ -47,7 +47,8 @@
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
                           <!--  <lookupPickerField datasource="requestDs" property="employee"/>  -->
-
+                            <lookupPickerField datasource="employeesDs" property="employee"/>
+                            <lookupPickerField datasource="positionsDs" property="employee"/>
                             <!--использовать employeeName-view -->
                             <!--        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit">
                                           <groupDatasource id="veloDetailsDs" property="veloDetail"/>
