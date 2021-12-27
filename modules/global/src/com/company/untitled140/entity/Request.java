@@ -149,23 +149,6 @@ public class Request extends TsCard {
     public void setPlanedPushcarePriceWithVAT(Integer planedPushcarePriceWithVAT) {
         this.planedPushcarePriceWithVAT = planedPushcarePriceWithVAT;
     }
-/*
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public User getInitiator() {
-        return initiator;
-    }
-
-    public void setInitiator(User initiator) {
-        this.initiator = initiator;
-    }
- */
 
     public Integer getSum() {
         return sum;

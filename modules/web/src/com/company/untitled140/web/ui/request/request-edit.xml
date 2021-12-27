@@ -38,16 +38,20 @@
                             <textField datasource="requestDs" property="number"/>
                             <dateField datasource="requestDs" property="date"/>
                             <lookupPickerField datasource="requestDs" property="initiator"/>
+                            <lookupPickerField datasource="requestDs" property="categoryOfRequest"/>
                            <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
                             <textField datasource="requestDs" property="purposeOfBusinessTrip"/>
                             <textField datasource="requestDs" property="way"/>
+                            <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
+                            <lookupPickerField datasource="requestDs" property="booking"/>
                             <textField datasource="requestDs" property="fare"/>
                             <textField datasource="requestDs" property="hotel"/>
                             <textField datasource="requestDs" property="costOfLiving"/>
                             <textField datasource="requestDs" property="dailyAllowance"/>
                             <textField datasource="requestDs" property="totalCost"/>
+                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget"/>
                             <textField datasource="requestDs" property="planedPushcarePriceWithVAT"/>
                             <textField datasource="requestDs" property="recipientOrganization"/>
                             <textField datasource="requestDs" property="addressOfDelivery"/>
@@ -55,7 +59,7 @@
                             <textField datasource="requestDs" property="deliveryTimeRequest"/>
                             <textField datasource="requestDs" property="descriptions"/>
                         </tab>
-                        <tab id="CFO"> 
+                        <tab id="CFO">
                             <lookupPickerField datasource="cfoDs" property="name"/>
                             <lookupPickerField datasource="ecpenceItemDs" property="name"/>
                             <currencyField datasource="requestDs" property="sum"/>
