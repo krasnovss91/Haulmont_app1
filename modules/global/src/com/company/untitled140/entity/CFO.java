@@ -1,5 +1,6 @@
 package com.company.untitled140.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.EnableRestore;
 import com.haulmont.cuba.core.entity.annotation.TrackEditScreenHistory;
@@ -11,6 +12,7 @@ import javax.validation.constraints.NotNull;
 @Entity(name = "untitled140$CFO")
 @EnableRestore
 @TrackEditScreenHistory
+@NamePattern("%s|name")
 public class CFO extends StandardEntity {
 
     private static final long serialVersionUID = 4567087566630888657L;
