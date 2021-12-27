@@ -29,12 +29,12 @@ public class RequestEdit<T extends TsCard> extends AbstractCardEditor<T> {
     protected String getHiddenTabsConfig() {
         return "processTab,securityTab,cardLogTab";
     }
-
+/*
     @Override
     public void setItem(Entity item) {
         super.setItem(item);
         if (isNumberAssignNeeded())
-            setNumber(item);
+            //setNumber(item);
         
     }
 
@@ -57,6 +57,7 @@ public class RequestEdit<T extends TsCard> extends AbstractCardEditor<T> {
         }
     }
 
+ */
     
 
     @Override

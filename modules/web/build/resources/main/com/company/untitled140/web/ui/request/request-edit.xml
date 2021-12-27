@@ -22,11 +22,15 @@
                 select c from wf$CardRelation c where (c.card.id = :ds$cardDs or c.relatedCard.id = :ds$cardDs)
                 ]]>
             </query>
+
         </collectionDatasource>
+
+        <collectionDatasource id="employeesDs" class="com.company.untitled140.entity.Request" view="employeeName-view"/>
+        <collectionDatasource id="positionsDs" class="com.company.untitled140.entity.Request" view="employeePosition-view"/>
 
         <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
         <datasource id="ecpenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
-        <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/> <!--отсюда взять данные для вкладки детали -->
+        <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/>
 
     </dsContext>
     <layout expand="split" spacing="true">
@@ -35,12 +39,43 @@
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
                     <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
                         <tab id="details">
-                            <!--<textField datasource="requestDs" property="number"/> -->
-                        </tab>
-                        <tab id="CFO"> <!--сюда ссылки на справочники ЦФО и Статья Расходов и Сумму, таблица  -->
+                           <!-- <textField datasource="requestDs" property="number"/> -->
+                            <dateField datasource="requestDs" property="date"/>
+                            <lookupPickerField datasource="requestDs" property="initiator"/>
+                            <lookupPickerField datasource="requestDs" property="categoryOfRequest"/>
+                           <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
+                            <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
+                            <textField datasource="requestDs" property="justificationForExclusivity"/>
+                          <!--  <lookupPickerField datasource="requestDs" property="employee"/>  -->
+                            <lookupPickerField datasource="employeesDs" property="employee"/>
+                            <lookupPickerField datasource="positionsDs" property="employee"/>
+                            <!--использовать employeeName-view -->
+                            <!--        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit">
+                                          <groupDatasource id="veloDetailsDs" property="veloDetail"/>
+                                          </datasource> -->
 
-                          <!--  <table height="100px" width="200px"/> -->
-                            <!--3 значение- сумма из сущности Заявка -->
+                            <textField datasource="requestDs" property="purposeOfBusinessTrip"/>
+                            <textField datasource="requestDs" property="way"/>
+                            <dateField datasource="requestDs" property="businessTripStart"/>
+                            <dateField datasource="requestDs" property="businessTripEnd"/>
+                            <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
+                            <lookupPickerField datasource="requestDs" property="booking"/>
+                            <textField datasource="requestDs" property="fare"/>
+                            <textField datasource="requestDs" property="hotel"/>
+                            <dateField datasource="requestDs" property="arrivalDate"/>
+                            <dateField datasource="requestDs" property="departureDate"/>
+                            <textField datasource="requestDs" property="costOfLiving"/>
+                            <textField datasource="requestDs" property="dailyAllowance"/>
+                            <textField datasource="requestDs" property="totalCost"/>
+                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget"/>
+                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT"/>
+                            <textField datasource="requestDs" property="recipientOrganization"/>
+                            <textField datasource="requestDs" property="addressOfDelivery"/>
+                            <textField datasource="requestDs" property="nameOfCargo"/>
+                            <textField datasource="requestDs" property="deliveryTimeRequest"/>
+                            <textField datasource="requestDs" property="descriptions"/>
+                        </tab>
+                        <tab id="CFO">
                             <lookupPickerField datasource="cfoDs" property="name"/>
                             <lookupPickerField datasource="ecpenceItemDs" property="name"/>
                             <currencyField datasource="requestDs" property="sum"/>

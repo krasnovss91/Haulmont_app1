@@ -39,7 +39,7 @@
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
                     <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
                         <tab id="details">
-                            <textField datasource="requestDs" property="number"/>
+                           <!-- <textField datasource="requestDs" property="number"/> -->
                             <dateField datasource="requestDs" property="date"/>
                             <lookupPickerField datasource="requestDs" property="initiator"/>
                             <lookupPickerField datasource="requestDs" property="categoryOfRequest"/>

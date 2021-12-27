@@ -87,6 +87,9 @@ create table UNTITLED140_BOOKING (
 create table UNTITLED140_REQUEST (
     CARD_ID uuid,
     --
+    DATE_ date,
+    NUMBER_ID uuid,
+    INITIATOR_ID uuid,
     CATEGORY_OF_REQUEST_ID uuid,
     TYPE_OF_PUSHCARE_ID uuid,
     PLANED_PUSHCARE_PRICE_WITH_VAT integer,

@@ -126,6 +126,22 @@ public class Request extends TsCard {
     @Column(name = "SUM_")
     protected Integer sum;
 
+    public Numerator getNumber() {
+        return number;
+    }
+
+    public void setNumber(Numerator number) {
+        this.number = number;
+    }
+
+    public User getInitiator() {
+        return initiator;
+    }
+
+    public void setInitiator(User initiator) {
+        this.initiator = initiator;
+    }
+
     public Employee getEmployee() {
         return employee;
     }
