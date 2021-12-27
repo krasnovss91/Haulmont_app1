@@ -37,14 +37,10 @@
             <property name="middleName"/>
         </property>
     </view>
-    <view entity="untitled140$Request" name="request-view" extends="_local">
+    <view entity="untitled140$Request" name="employeePosition-view" extends="_local">
         <property name="employee" view="_minimal">
             <property name="position" view="_minimal"/>
         </property>
     </view>
-    <!--
-    <view entity="untitled140$Request" name="sum" >
 
-    </view>
-    -->
 </views>

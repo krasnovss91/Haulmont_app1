@@ -66,7 +66,7 @@ public class Request extends TsCard {
 
     @Temporal(TemporalType.DATE)
     @Column(name = "BUSINES_TRIP_START")
-    protected Date businesTripStart;
+    protected Date businessTripStart;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "BUSINESS_TRIP_END")
@@ -182,14 +182,6 @@ public class Request extends TsCard {
         this.businessTripEnd = businessTripEnd;
     }
 
-    public Date getBusinesTripStart() {
-        return businesTripStart;
-    }
-
-    public void setBusinesTripStart(Date businesTripStart) {
-        this.businesTripStart = businesTripStart;
-    }
-
     public Date getDepartureDate() {
         return departureDate;
     }
@@ -237,15 +229,7 @@ public class Request extends TsCard {
     public void setFare(Integer fare) {
         this.fare = fare;
     }
-/*
-    public Numerator getNumber() {
-        return number;
-    }
 
-    public void setNumber(Numerator number) {
-        this.number = number;
-    }
- */
 
     public Booking getBooking() {
         return booking;
