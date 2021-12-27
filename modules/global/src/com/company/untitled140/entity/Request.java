@@ -56,7 +56,7 @@ public class Request extends TsCard {
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "EMPLOYEE_ID")
-    protected Employee employee;
+    protected Employee employee;//отсюда взять только фио и должность
 
     @Column(name = "PURPOSE_OF_BUSINESS_TRIP")
     protected String purposeOfBusinessTrip;

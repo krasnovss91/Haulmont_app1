@@ -30,6 +30,13 @@
         <property name="createTs"/>
         <property name="creator" view="user-minimal"/>
     </view>
+    <view entity="untitled140$Request" name="employeeName-view" extends="_local">
+        <property name="employee" view="_minimal">
+            <property name="firstName"/>
+            <property name="lastName"/>
+            <property name="middleName"/>
+        </property>
+    </view>
     <!--
     <view entity="untitled140$Request" name="sum" >
 
