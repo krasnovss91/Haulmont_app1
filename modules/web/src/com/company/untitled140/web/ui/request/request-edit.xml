@@ -26,7 +26,7 @@
 
         <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
         <datasource id="ecpenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
-        <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/> <!--отсюда взять данные для вкладки детали -->
+        <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/>
 
     </dsContext>
     <layout expand="split" spacing="true">
@@ -44,10 +44,14 @@
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
                             <textField datasource="requestDs" property="purposeOfBusinessTrip"/>
                             <textField datasource="requestDs" property="way"/>
+                            <dateField datasource="requestDs" property="businesTripStart"/>
+                            <dateField datasource="requestDs" property="businessTripEnd"/>
                             <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
                             <lookupPickerField datasource="requestDs" property="booking"/>
                             <textField datasource="requestDs" property="fare"/>
                             <textField datasource="requestDs" property="hotel"/>
+                            <dateField datasource="requestDs" property="arrivalDate"/>
+                            <dateField datasource="requestDs" property="departureDate"/>
                             <textField datasource="requestDs" property="costOfLiving"/>
                             <textField datasource="requestDs" property="dailyAllowance"/>
                             <textField datasource="requestDs" property="totalCost"/>
