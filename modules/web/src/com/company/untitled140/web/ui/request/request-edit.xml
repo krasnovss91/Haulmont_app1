@@ -88,9 +88,25 @@
                             <textField datasource="requestDs" property="descriptions" caption="описание"/>
                         </tab>
                         <tab id="CFO">
+
+                            <!--
+                            <grid id="cfoInfo" spacing="true" visible="false"
+                                  margin="true,false,false,false" width="550px">
+                                <columns>
+                                    <column flex="1"/>
+                                </columns>
+                                <rows>
+                                    <row> <lookupPickerField datasource="cfoDs" property="name" caption="ЦФО"/></row>
+                                    <row><lookupPickerField datasource="expenceItemDs" property="name" caption="Статья расходов"/></row>
+                                    <row> <currencyField datasource="requestDs" property="sum" caption="Сумма"/></row>
+                                </rows>
+                            </grid>
+                            -->
+
                             <lookupPickerField datasource="cfoDs" property="name" caption="ЦФО"/>
                             <lookupPickerField datasource="expenceItemDs" property="name" caption="Статья расходов"/>
                             <currencyField datasource="requestDs" property="sum" caption="Сумма"/>
+
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"

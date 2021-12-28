@@ -34,6 +34,16 @@ public class ExpenceItem extends StandardEntity {
     protected String display;
     @OneToOne(fetch = FetchType.LAZY, mappedBy = "expenceItem")
     protected Request request;
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "expenceItem")
+    protected CfoLine cfoLine;
+
+    public CfoLine getCfoLine() {
+        return cfoLine;
+    }
+
+    public void setCfoLine(CfoLine cfoLine) {
+        this.cfoLine = cfoLine;
+    }
 
     public Request getRequest() {
         return request;
