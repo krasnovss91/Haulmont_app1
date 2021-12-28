@@ -228,6 +228,7 @@
     <class>com.company.untitled140.entity.ExpenceItem</class>
     <class>com.company.untitled140.entity.Booking</class>
     <class>com.company.untitled140.entity.Request</class>
+    <class>com.company.untitled140.entity.CfoLine</class>
     <class>com.haulmont.thesis.core.entity.VoiceCommandSynonym</class>
     <properties>
       <property name="eclipselink.session-event-listener" value="com.haulmont.cuba.core.sys.persistence.ThesisEclipseLinkSessionEventListener"/>

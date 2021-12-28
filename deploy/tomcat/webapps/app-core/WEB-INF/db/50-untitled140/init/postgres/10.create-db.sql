@@ -121,3 +121,21 @@ create table UNTITLED140_REQUEST (
     primary key (CARD_ID)
 )^
 -- end UNTITLED140_REQUEST
+-- begin UNTITLED140_CFO_LINE
+create table UNTITLED140_CFO_LINE (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    CFO_ID uuid,
+    EXPENCE_ITEM_ID uuid,
+    SUM_ integer,
+    --
+    primary key (ID)
+)^
+-- end UNTITLED140_CFO_LINE

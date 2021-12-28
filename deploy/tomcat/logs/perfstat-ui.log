@@ -595,3 +595,111 @@ mainWindow.voiceControlConsole#load                     40,0          40        
 voiceControlConsole#create                              53,0          53          53         0,0           1
 voiceControlConsole#xml                                  1,0           1           1         0,0           1
 
+Performance Statistics   2021-12-28 14:42:00 - 2021-12-28 14:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         25,0          25          25         0,0           1
+TDS null                                                50,0          50          50         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     146,0         146         146         0,0           1
+loginWindow#init                                        33,0          33          33         0,0           1
+loginWindow#inject                                      86,0          86          86         0,0           1
+loginWindow#load                                       549,0         549         549         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         15,5           0          31        15,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       11,0          11          11         0,0           1
+mainWindow#init                                        190,0         190         190         0,0           1
+mainWindow#inject                                       16,0          16          16         0,0           1
+mainWindow#load                                       1780,0        1780        1780         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,5           0           3         1,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    5,0           5           5         0,0           1
+mainWindow.voiceControlConsole#load                    431,0         431         431         0,0           1
+voiceControlConsole#create                              94,0          94          94         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-12-28 14:44:00 - 2021-12-28 14:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 14:46:00 - 2021-12-28 14:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         25,0          25          25         0,0           1
+TDS null                                                26,0          26          26         0,0           1
+
+Performance Statistics   2021-12-28 16:18:00 - 2021-12-28 16:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 16:20:00 - 2021-12-28 16:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                  51,0          51          51         0,0           1
+loginWindow#create                                     990,0         990         990         0,0           1
+loginWindow#init                                       131,0         131         131         0,0           1
+loginWindow#inject                                     463,0         463         463         0,0           1
+loginWindow#load                                      2740,0        2740        2740         0,0           1
+loginWindow#uiPermissions                               36,0          36          36         0,0           1
+loginWindow#xml                                         41,0           0          82        41,0           2
+
+Performance Statistics   2021-12-28 16:22:00 - 2021-12-28 16:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         71,0          71          71         0,0           1
+TDS null                                               212,0         212         212         0,0           1
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       84,0          84          84         0,0           1
+mainWindow#init                                       1045,0        1045        1045         0,0           1
+mainWindow#inject                                       56,0          56          56         0,0           1
+mainWindow#load                                       2564,0        2564        2564         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                          16,5           0          33        16,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                  167,0         167         167         0,0           1
+mainWindow.voiceControlConsole#load                     58,0          58          58         0,0           1
+voiceControlConsole#create                             498,0         498         498         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-12-28 16:24:00 - 2021-12-28 16:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.untitled140$Request.lookup                  10989,0       10989       10989         0,0           1
+actionsFrame#create                                     25,0          25          25         0,0           1
+actionsFrame#xml                                        86,0           0         172        86,0           2
+cardAttachmentsFrame#create                           1197,0        1197        1197         0,0           1
+cardAttachmentsFrame#xml                                82,0           0         164        82,0           2
+cardProcFrame#create                                   792,0         792         792         0,0           1
+cardProcFrame#xml                                       88,0           0         176        88,0           2
+cardRolesFrame#create                                   25,0          25          25         0,0           1
+cardRolesFrame#xml                                     108,5           0         217       108,5           2
+cardTreeFrame#create                                     1,0           1           1         0,0           2
+cardTreeFrame#xml                                        0,3           0           1         0,4           4
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               4,0           4           4         0,0           1
+lookupWindowActions#load                                 2,0           2           2         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+resolutionsFrame#create                                 47,5           1          94        46,5           2
+resolutionsFrame#xml                                     5,0           0          20         8,7           4
+startProcessButtonsFrame#create                          2,0           2           2         0,0           1
+startProcessButtonsFrame#xml                             2,5           0           5         2,5           2
+untitled140$Request.edit#create                          5,0           5           5         0,0           1
+untitled140$Request.edit#xml                           234,4           0        1172       468,8           5
+untitled140$Request.lookup#afterShow                     0,0           0           0         0,0           1
+untitled140$Request.lookup#beforeShow                    0,0           0           0         0,0           1
+untitled140$Request.lookup#create                       19,0          19          19         0,0           1
+untitled140$Request.lookup#init                        189,0         189         189         0,0           1
+untitled140$Request.lookup#inject                       40,0          40          40         0,0           1
+untitled140$Request.lookup#load                       1452,0        1452        1452         0,0           1
+untitled140$Request.lookup#uiPermissions                 0,0           0           0         0,0           1
+untitled140$Request.lookup#xml                           1,5           0           3         1,5           2
+untitled140$Request.lookup.cardTreeFrame#init           12,0          12          12         0,0           1
+untitled140$Request.lookup.cardTreeFrame#inject          3,0           3           3         0,0           1
+untitled140$Request.lookup.cardTreeFrame#load           86,0          86          86         0,0           1
+untitled140$Request.lookup.cardTreeFrame@cardTreeDs       384,0         384         384         0,0           1
+untitled140$Request.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$Request.lookup.resolutionsFrame#init        14,0          14          14         0,0           1
+untitled140$Request.lookup.resolutionsFrame#inject         8,0           8           8         0,0           1
+untitled140$Request.lookup.resolutionsFrame#load        63,0          63          63         0,0           1
+untitled140$Request.lookup.resolutionsFrame@resolutionsDs       309,0         309         309         0,0           1
+untitled140$Request.lookup@cardsDs                    1482,0        1482        1482         0,0           1
+

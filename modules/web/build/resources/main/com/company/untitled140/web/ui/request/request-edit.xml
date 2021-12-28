@@ -40,6 +40,7 @@
             </query>
         </collectionDatasource>
         -->
+        <datasource id="cfoLineDs" class="com.company.untitled140.entity.CfoLine" view="_local"/>
         <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
        <datasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
         <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/>
@@ -89,6 +90,7 @@
                         </tab>
                         <tab id="CFO">
 
+                            <!--
                             <grid id="cfoInfo" spacing="true" visible="false"
                                   margin="true,false,false,false" width="550px">
                                 <columns>
@@ -100,11 +102,17 @@
                                     <row> <currencyField datasource="requestDs" property="sum" caption="Сумма"/></row>
                                 </rows>
                             </grid>
+                            -->
+
+                            <lookupPickerField datasource="cfoLineDs" property="cfo" caption="ЦФО"/>
+                            <lookupPickerField datasource="cfoLineDs" property="expenceItem" caption="Статья расходов"/>
+                            <currencyField datasource="cfoLineDs" property="sum" caption="Сумма"/>
                             <!--
                             <lookupPickerField datasource="cfoDs" property="name" caption="ЦФО"/>
                             <lookupPickerField datasource="expenceItemDs" property="name" caption="Статья расходов"/>
                             <currencyField datasource="requestDs" property="sum" caption="Сумма"/>
                             -->
+
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"

@@ -22,6 +22,7 @@ import java.util.Date;
 public class Request extends TsCard {
     private static final long serialVersionUID = 6935893211447730139L;
 
+
     @Temporal(TemporalType.DATE)
     @Column(name = "DATE_")
     protected Date date;
@@ -128,6 +129,14 @@ public class Request extends TsCard {
 
     public Numerator getNumber() {
         return number;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public void setNumber(Numerator number) {

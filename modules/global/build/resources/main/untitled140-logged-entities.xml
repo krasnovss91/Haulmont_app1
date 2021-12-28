@@ -7,4 +7,5 @@
     <entity metaClass="untitled140$ExpenceItem"/>
     <entity metaClass="untitled140$Booking"/>
     <entity metaClass="untitled140$Request"/>
+    <entity metaClass="untitled140$CfoLine"/>
 </entities>

@@ -228,6 +228,7 @@
     <class>com.company.untitled140.entity.ExpenceItem</class>
     <class>com.company.untitled140.entity.Booking</class>
     <class>com.company.untitled140.entity.Request</class>
+    <class>com.company.untitled140.entity.CfoLine</class>
     <exclude-unlisted-classes/>
     <properties>
       <property name="eclipselink.cache.coordination.propagate-asynchronously" value="false"/>
