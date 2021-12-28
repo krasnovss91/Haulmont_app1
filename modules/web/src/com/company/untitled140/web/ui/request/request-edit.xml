@@ -52,12 +52,12 @@
                     <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
                         <tab id="details">
                            <!-- <textField datasource="requestDs" property="number"/> -->
-                            <dateField datasource="requestDs" property="date"/>
-                            <lookupPickerField datasource="requestDs" property="initiator" caption=""/>
-                            <lookupPickerField datasource="requestDs" property="categoryOfRequest"/>
+                            <dateField datasource="requestDs" property="date" caption="дата"/>
+                            <lookupPickerField datasource="requestDs" property="initiator" caption="инициатор"/>
+                            <lookupPickerField datasource="requestDs" property="categoryOfRequest" caption="категория заявки"/>
                            <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
-                            <textField datasource="requestDs" property="justificationForExclusivity"/>
+                            <textField datasource="requestDs" property="justificationForExclusivity" caption="обоснование эксклюзивности"/>
                           <!--  <lookupPickerField datasource="requestDs" property="employee"/>  -->
                             <lookupPickerField datasource="employeesDs" property="employee"/>
                             <lookupPickerField datasource="positionsDs" property="employee"/>
@@ -66,13 +66,13 @@
                                           <groupDatasource id="veloDetailsDs" property="veloDetail"/>
                                           </datasource> -->
 
-                            <textField datasource="requestDs" property="purposeOfBusinessTrip" htmlName="цель командировки"/>
-                            <textField datasource="requestDs" property="way"/>
+                            <textField datasource="requestDs" property="purposeOfBusinessTrip" caption="цель командировки"/>
+                            <textField datasource="requestDs" property="way" caption="направление"/>
                             <dateField datasource="requestDs" property="businessTripStart"/>
                             <dateField datasource="requestDs" property="businessTripEnd"/>
                             <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
-                            <lookupPickerField datasource="requestDs" property="booking"/>
-                            <textField datasource="requestDs" property="fare"/>
+                            <lookupPickerField datasource="requestDs" property="booking" caption="бронирование"/>
+                            <textField datasource="requestDs" property="fare" caption="стоимость проезда"/>
                             <textField datasource="requestDs" property="hotel"/>
                             <dateField datasource="requestDs" property="arrivalDate"/>
                             <dateField datasource="requestDs" property="departureDate"/>

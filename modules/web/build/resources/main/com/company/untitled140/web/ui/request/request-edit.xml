@@ -52,9 +52,9 @@
                     <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
                         <tab id="details">
                            <!-- <textField datasource="requestDs" property="number"/> -->
-                            <dateField datasource="requestDs" property="date"/>
-                            <lookupPickerField datasource="requestDs" property="initiator" caption=""/>
-                            <lookupPickerField datasource="requestDs" property="categoryOfRequest"/>
+                            <dateField datasource="requestDs" property="date" caption="дата"/>
+                            <lookupPickerField datasource="requestDs" property="initiator" caption="инициатор"/>
+                            <lookupPickerField datasource="requestDs" property="categoryOfRequest" caption="категория заявки"/>
                            <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
                             <textField datasource="requestDs" property="justificationForExclusivity"/>
