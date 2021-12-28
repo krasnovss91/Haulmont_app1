@@ -1,343 +1,315 @@
-Performance Statistics   2021-12-27 15:36:00 - 2021-12-27 15:38:00
+Performance Statistics   2021-12-28 11:06:00 - 2021-12-28 11:08:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         59,0          59          59         0,0           1
+TDS null                                               475,0         475         475         0,0           1
 loginWindow#afterShow                                    0,0           0           0         0,0           1
-loginWindow#beforeShow                                   2,0           2           2         0,0           1
-loginWindow#create                                     351,0         351         351         0,0           1
-loginWindow#init                                       252,0         252         252         0,0           1
-loginWindow#inject                                     350,0         350         350         0,0           1
-loginWindow#load                                      1731,0        1731        1731         0,0           1
-loginWindow#uiPermissions                                1,0           1           1         0,0           1
-loginWindow#xml                                         55,0           0         110        55,0           2
-
-Performance Statistics   2021-12-27 15:38:00 - 2021-12-27 15:40:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-CardDeadlineDatasource#loadTree                         51,0          51          51         0,0           1
-MenuItem.untitled140$Request.lookup                   5798,0        5798        5798         0,0           1
-TDS null                                                96,0          96          96         0,0           1
-actionsFrame#create                                      3,0           3           3         0,0           1
-actionsFrame#xml                                         6,0           0          12         6,0           2
-cardAttachmentsFrame#create                             93,0          93          93         0,0           1
-cardAttachmentsFrame#xml                                 4,5           0           9         4,5           2
-cardProcFrame#create                                    50,0          50          50         0,0           1
-cardProcFrame#xml                                        1,0           0           2         1,0           2
-cardRolesFrame#create                                   15,0          15          15         0,0           1
-cardRolesFrame#xml                                       1,5           0           3         1,5           2
-cardTreeFrame#create                                     3,0           1           5         2,0           2
-cardTreeFrame#xml                                        0,3           0           1         0,4           4
-lookupWindowActions#create                               0,0           0           0         0,0           1
-lookupWindowActions#inject                               4,0           4           4         0,0           1
-lookupWindowActions#load                                 1,0           1           1         0,0           1
-lookupWindowActions#xml                                  0,5           0           1         0,5           2
-mainWindow#afterShow                                     4,0           4           4         0,0           1
+loginWindow#beforeShow                                  31,0          31          31         0,0           1
+loginWindow#create                                     944,0         944         944         0,0           1
+loginWindow#init                                       153,0         153         153         0,0           1
+loginWindow#inject                                     430,0         430         430         0,0           1
+loginWindow#load                                      2119,0        2119        2119         0,0           1
+loginWindow#uiPermissions                               16,0          16          16         0,0           1
+loginWindow#xml                                         38,0           0          76        38,0           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
 mainWindow#beforeShow                                    0,0           0           0         0,0           1
-mainWindow#create                                       54,0          54          54         0,0           1
-mainWindow#init                                        342,0         342         342         0,0           1
+mainWindow#create                                       30,0          30          30         0,0           1
+mainWindow#init                                        695,0         695         695         0,0           1
 mainWindow#inject                                       13,0          13          13         0,0           1
-mainWindow#load                                       2058,0        2058        2058         0,0           1
+mainWindow#load                                       2009,0        2009        2009         0,0           1
 mainWindow#uiPermissions                                 0,0           0           0         0,0           1
-mainWindow#xml                                           8,5           0          17         8,5           2
+mainWindow#xml                                           2,0           1           3         1,0           2
 mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
 mainWindow.voiceControlConsole#inject                    5,0           5           5         0,0           1
-mainWindow.voiceControlConsole#load                     33,0          33          33         0,0           1
-resolutionsFrame#create                                 31,0           1          61        30,0           2
-resolutionsFrame#xml                                     0,8           0           3         1,3           4
-startProcessButtonsFrame#create                          2,0           2           2         0,0           1
-startProcessButtonsFrame#xml                             0,5           0           1         0,5           2
+mainWindow.voiceControlConsole#load                     40,0          40          40         0,0           1
+voiceControlConsole#create                              63,0          63          63         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-12-28 11:08:00 - 2021-12-28 11:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         22,0          22          22         0,0           1
+TDS null                                                23,0          23          23         0,0           1
+
+Performance Statistics   2021-12-28 11:10:00 - 2021-12-28 11:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.df$Position.browse                            267,0         267         267         0,0           1
+MenuItem.untitled140$CFO.lookup                       5940,0        5940        5940         0,0           1
+df$Position.browse#afterShow                             0,0           0           0         0,0           1
+df$Position.browse#beforeShow                            0,0           0           0         0,0           1
+df$Position.browse#create                                0,0           0           0         0,0           1
+df$Position.browse#init                                  1,0           1           1         0,0           1
+df$Position.browse#inject                               12,0          12          12         0,0           1
+df$Position.browse#load                                 40,0          40          40         0,0           1
+df$Position.browse#uiPermissions                         0,0           0           0         0,0           1
+df$Position.browse#xml                                   4,5           0           9         4,5           2
+df$Position.browse.lookupWindowActions#init              0,0           0           0         0,0           1
+df$Position.browse@positionDs                           50,0          50          50         0,0           1
+df$Position.edit#afterShow                               0,0           0           0         0,0           1
+df$Position.edit#beforeShow                              0,0           0           0         0,0           1
+df$Position.edit#create                                  0,0           0           0         0,0           1
+df$Position.edit#init                                    0,0           0           0         0,0           1
+df$Position.edit#inject                                  6,0           6           6         0,0           1
+df$Position.edit#load                                   43,0          43          43         0,0           1
+df$Position.edit#uiPermissions                           0,0           0           0         0,0           1
+df$Position.edit#xml                                     0,2           0           1         0,4           5
+df$Position.edit.buttons#init                            0,0           0           0         0,0           1
+df$Position.edit.buttons#inject                          0,0           0           0         0,0           1
+df$Position.edit.buttons#load                            0,0           0           0         0,0           1
+editWindowActions#create                                 7,5           0          15         7,5           2
+editWindowActions#xml                                    0,3           0           1         0,4           4
+lookupWindowActions#create                               0,5           0           1         0,5           2
+lookupWindowActions#inject                               2,0           0           4         2,0           2
+lookupWindowActions#load                                 1,0           0           2         1,0           2
+lookupWindowActions#xml                                  0,3           0           1         0,4           4
+untitled140$CFO.edit#afterShow                           0,0           0           0         0,0           1
+untitled140$CFO.edit#beforeShow                          0,0           0           0         0,0           1
+untitled140$CFO.edit#create                              1,0           1           1         0,0           1
+untitled140$CFO.edit#init                                3,0           3           3         0,0           1
+untitled140$CFO.edit#inject                              8,0           8           8         0,0           1
+untitled140$CFO.edit#load                              534,0         534         534         0,0           1
+untitled140$CFO.edit#uiPermissions                       0,0           0           0         0,0           1
+untitled140$CFO.edit#xml                                 0,6           0           3         1,2           5
+untitled140$CFO.edit.windowActions#init                  0,0           0           0         0,0           1
+untitled140$CFO.edit.windowActions#inject                2,0           2           2         0,0           1
+untitled140$CFO.edit.windowActions#load                 11,0          11          11         0,0           1
+untitled140$CFO.lookup#afterShow                         0,0           0           0         0,0           1
+untitled140$CFO.lookup#beforeShow                        2,0           2           2         0,0           1
+untitled140$CFO.lookup#create                           17,0          17          17         0,0           1
+untitled140$CFO.lookup#init                             11,0          11          11         0,0           1
+untitled140$CFO.lookup#inject                           51,0          51          51         0,0           1
+untitled140$CFO.lookup#load                           1977,0        1977        1977         0,0           1
+untitled140$CFO.lookup#uiPermissions                     0,0           0           0         0,0           1
+untitled140$CFO.lookup#xml                               8,0           0          16         8,0           2
+untitled140$CFO.lookup.lookupWindowActions#init          0,0           0           0         0,0           1
+untitled140$CFO.lookup@cFoesDs                         615,0         615         615         0,0           1
+
+Performance Statistics   2021-12-28 11:12:00 - 2021-12-28 11:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 11:14:00 - 2021-12-28 11:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 11:16:00 - 2021-12-28 11:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.untitled140$Request.lookup                   6098,0        6098        6098         0,0           1
+actionsFrame#create                                      8,0           8           8         0,0           1
+actionsFrame#xml                                         2,5           0           5         2,5           2
+cardAttachmentsFrame#create                             93,0          93          93         0,0           1
+cardAttachmentsFrame#xml                                 2,5           0           5         2,5           2
+cardProcFrame#create                                    97,0          97          97         0,0           1
+cardProcFrame#xml                                        0,5           0           1         0,5           2
+cardRolesFrame#create                                   17,0          17          17         0,0           1
+cardRolesFrame#xml                                      14,0           5          23         9,0           2
+cardTreeFrame#create                                     3,5           1           6         2,5           2
+cardTreeFrame#xml                                        0,3           0           1         0,4           4
+lookupWindowActions#create                               0,0           0           0         0,0           3
+lookupWindowActions#inject                               0,0           0           0         0,0           3
+lookupWindowActions#load                                 0,3           0           1         0,5           3
+lookupWindowActions#xml                                  0,0           0           0         0,0           6
+resolutionsFrame#create                                155,0           4         306       151,0           2
+resolutionsFrame#xml                                     4,3           0          16         6,8           4
+startProcessButtonsFrame#create                          8,0           8           8         0,0           1
+startProcessButtonsFrame#xml                             1,0           0           2         1,0           2
+untitled140$Request.edit#afterShow                       0,0           0           0         0,0           1
+untitled140$Request.edit#beforeShow                      3,0           3           3         0,0           1
 untitled140$Request.edit#companion                       3,0           3           3         0,0           1
-untitled140$Request.edit#create                          4,0           4           4         0,0           1
-untitled140$Request.edit#init                           42,0          42          42         0,0           1
-untitled140$Request.edit#inject                        189,0         189         189         0,0           1
-untitled140$Request.edit#load                         1389,0        1389        1389         0,0           1
-untitled140$Request.edit#xml                             0,6           0           3         1,2           5
+untitled140$Request.edit#create                          3,0           3           3         0,0           1
+untitled140$Request.edit#init                           64,0          64          64         0,0           1
+untitled140$Request.edit#inject                         25,0          25          25         0,0           1
+untitled140$Request.edit#load                         1507,0        1507        1507         0,0           1
+untitled140$Request.edit#uiPermissions                   0,0           0           0         0,0           1
+untitled140$Request.edit#xml                             1,2           0           6         2,4           5
 untitled140$Request.edit.actionsFrame#init               0,0           0           0         0,0           1
-untitled140$Request.edit.actionsFrame#inject             4,0           4           4         0,0           1
+untitled140$Request.edit.actionsFrame#inject             6,0           6           6         0,0           1
 untitled140$Request.edit.actionsFrame#load               0,0           0           0         0,0           1
-untitled140$Request.edit.cardAttachmentsFrame#init       241,0         241         241         0,0           1
-untitled140$Request.edit.cardAttachmentsFrame#inject        15,0          15          15         0,0           1
-untitled140$Request.edit.cardAttachmentsFrame#load       217,0         217         217         0,0           1
-untitled140$Request.edit.cardProcFrame#init              5,0           5           5         0,0           1
-untitled140$Request.edit.cardProcFrame#inject            7,0           7           7         0,0           1
-untitled140$Request.edit.cardProcFrame#load            121,0         121         121         0,0           1
+untitled140$Request.edit.cardAttachmentsFrame#init       297,0         297         297         0,0           1
+untitled140$Request.edit.cardAttachmentsFrame#inject        16,0          16          16         0,0           1
+untitled140$Request.edit.cardAttachmentsFrame#load       207,0         207         207         0,0           1
+untitled140$Request.edit.cardProcFrame#init              7,0           7           7         0,0           1
+untitled140$Request.edit.cardProcFrame#inject           10,0          10          10         0,0           1
+untitled140$Request.edit.cardProcFrame#load            104,0         104         104         0,0           1
 untitled140$Request.edit.cardProcFrame.cardRolesFrame#init         0,0           0           0         0,0           1
-untitled140$Request.edit.cardProcFrame.cardRolesFrame#inject        11,0          11          11         0,0           1
-untitled140$Request.edit.cardProcFrame.cardRolesFrame#load        44,0          44          44         0,0           1
-untitled140$Request.edit.cardProcFrame@procDs          158,0         158         158         0,0           1
+untitled140$Request.edit.cardProcFrame.cardRolesFrame#inject        15,0          15          15         0,0           1
+untitled140$Request.edit.cardProcFrame.cardRolesFrame#load        64,0          64          64         0,0           1
+untitled140$Request.edit.cardProcFrame@procDs           56,0          56          56         0,0           1
 untitled140$Request.edit.cardTreeFrame#init              0,0           0           0         0,0           1
 untitled140$Request.edit.cardTreeFrame#inject            0,0           0           0         0,0           1
-untitled140$Request.edit.cardTreeFrame#load              2,0           2           2         0,0           1
+untitled140$Request.edit.cardTreeFrame#load              1,0           1           1         0,0           1
+untitled140$Request.edit.cardTreeFrame@cardTreeDs         0,0           0           0         0,0           1
+untitled140$Request.edit.resolutionsFrame#init           0,0           0           0         0,0           1
+untitled140$Request.edit.resolutionsFrame#inject         0,0           0           0         0,0           1
+untitled140$Request.edit.resolutionsFrame#load           3,0           3           3         0,0           1
+untitled140$Request.edit.resolutionsFrame@resolutionsDs        21,0          21          21         0,0           1
+untitled140$Request.edit.startProcessButtonsFrame#init         0,0           0           0         0,0           1
+untitled140$Request.edit.startProcessButtonsFrame#inject         8,0           8           8         0,0           1
+untitled140$Request.edit.startProcessButtonsFrame#load         0,0           0           0         0,0           1
+untitled140$Request.edit@attachmentsDs                 221,0         221         221         0,0           1
+untitled140$Request.lookup#afterShow                     0,0           0           0         0,0           1
+untitled140$Request.lookup#beforeShow                    0,0           0           0         0,0           1
+untitled140$Request.lookup#create                       19,0          19          19         0,0           1
+untitled140$Request.lookup#init                        266,0         266         266         0,0           1
+untitled140$Request.lookup#inject                        9,0           9           9         0,0           1
+untitled140$Request.lookup#load                       1670,0        1670        1670         0,0           1
+untitled140$Request.lookup#uiPermissions                 0,0           0           0         0,0           1
+untitled140$Request.lookup#xml                         365,0           0         730       365,0           2
+untitled140$Request.lookup.cardTreeFrame#init           28,0          28          28         0,0           1
+untitled140$Request.lookup.cardTreeFrame#inject          2,0           2           2         0,0           1
+untitled140$Request.lookup.cardTreeFrame#load          330,0         330         330         0,0           1
+untitled140$Request.lookup.cardTreeFrame@cardTreeDs         0,0           0           0         0,0           1
+untitled140$Request.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$Request.lookup.resolutionsFrame#init        26,0          26          26         0,0           1
+untitled140$Request.lookup.resolutionsFrame#inject         4,0           4           4         0,0           1
+untitled140$Request.lookup.resolutionsFrame#load       243,0         243         243         0,0           1
+untitled140$Request.lookup.resolutionsFrame@resolutionsDs       246,0         246         246         0,0           1
+untitled140$Request.lookup@cardsDs                      41,0          41          41         0,0           1
+untitled140$TypeOfPushcare.lookup#afterShow              0,0           0           0         0,0           2
+untitled140$TypeOfPushcare.lookup#beforeShow             0,5           0           1         0,5           2
+untitled140$TypeOfPushcare.lookup#create                 0,0           0           0         0,0           2
+untitled140$TypeOfPushcare.lookup#init                   0,0           0           0         0,0           2
+untitled140$TypeOfPushcare.lookup#inject                 3,0           0           6         3,0           2
+untitled140$TypeOfPushcare.lookup#load                  13,0           6          20         7,0           2
+untitled140$TypeOfPushcare.lookup#uiPermissions          0,0           0           0         0,0           2
+untitled140$TypeOfPushcare.lookup#xml                    0,4           0           3         0,9          10
+untitled140$TypeOfPushcare.lookup.lookupWindowActions#init         0,0           0           0         0,0           2
+untitled140$TypeOfPushcare.lookup@typeOfPushcaresDs        26,0           8          44        18,0           2
+
+Performance Statistics   2021-12-28 11:18:00 - 2021-12-28 11:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 11:20:00 - 2021-12-28 11:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 11:22:00 - 2021-12-28 11:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-28 11:28:00 - 2021-12-28 11:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         59,0          59          59         0,0           1
+TDS null                                               213,0         213         213         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     632,0         632         632         0,0           1
+loginWindow#init                                        67,0          67          67         0,0           1
+loginWindow#inject                                     391,0         391         391         0,0           1
+loginWindow#load                                      1851,0        1851        1851         0,0           1
+loginWindow#uiPermissions                                2,0           2           2         0,0           1
+loginWindow#xml                                         83,0           0         166        83,0           2
+mainWindow#create                                       30,0          30          30         0,0           1
+mainWindow#init                                       1010,0        1010        1010         0,0           1
+mainWindow#inject                                       51,0          51          51         0,0           1
+mainWindow#load                                       9573,0        9573        9573         0,0           1
+mainWindow#xml                                          15,5           0          31        15,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                   65,0          65          65         0,0           1
+mainWindow.voiceControlConsole#load                     40,0          40          40         0,0           1
+voiceControlConsole#create                            1218,0        1218        1218         0,0           1
+voiceControlConsole#xml                                  2,0           2           2         0,0           1
+
+Performance Statistics   2021-12-28 11:30:00 - 2021-12-28 11:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.untitled140$Request.lookup                   9317,0        9317        9317         0,0           1
+actionsFrame#create                                      3,0           3           3         0,0           1
+actionsFrame#xml                                         0,5           0           1         0,5           2
+cardAttachmentsFrame#create                             81,0          81          81         0,0           1
+cardAttachmentsFrame#xml                                 4,5           0           9         4,5           2
+cardProcFrame#create                                    42,0          42          42         0,0           1
+cardProcFrame#xml                                        0,5           0           1         0,5           2
+cardRolesFrame#create                                    5,0           5           5         0,0           1
+cardRolesFrame#xml                                       1,5           0           3         1,5           2
+cardTreeFrame#create                                     1,5           1           2         0,5           2
+cardTreeFrame#xml                                        0,3           0           1         0,4           4
+lookupWindowActions#create                               0,0           0           0         0,0           4
+lookupWindowActions#inject                               1,3           0           5         2,2           4
+lookupWindowActions#load                                 0,3           0           1         0,4           4
+lookupWindowActions#xml                                  0,1           0           1         0,3           8
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+resolutionsFrame#create                                 32,5           1          64        31,5           2
+resolutionsFrame#xml                                     1,0           0           4         1,7           4
+startProcessButtonsFrame#create                          1,0           1           1         0,0           1
+startProcessButtonsFrame#xml                             0,0           0           0         0,0           2
+untitled140$Booking.lookup#afterShow                     0,0           0           0         0,0           2
+untitled140$Booking.lookup#beforeShow                    0,0           0           0         0,0           2
+untitled140$Booking.lookup#create                        0,0           0           0         0,0           2
+untitled140$Booking.lookup#init                          0,0           0           0         0,0           2
+untitled140$Booking.lookup#inject                        2,5           0           5         2,5           2
+untitled140$Booking.lookup#load                         10,5           8          13         2,5           2
+untitled140$Booking.lookup#uiPermissions                 0,0           0           0         0,0           2
+untitled140$Booking.lookup#xml                           4,6           0          46        13,8          10
+untitled140$Booking.lookup.lookupWindowActions#init         0,0           0           0         0,0           2
+untitled140$Booking.lookup@bookingsDs                   55,5           6         105        49,5           2
+untitled140$Request.edit#afterShow                       0,0           0           0         0,0           1
+untitled140$Request.edit#beforeShow                      4,0           4           4         0,0           1
+untitled140$Request.edit#companion                       2,0           2           2         0,0           1
+untitled140$Request.edit#create                         14,0          14          14         0,0           1
+untitled140$Request.edit#init                          116,0         116         116         0,0           1
+untitled140$Request.edit#inject                         24,0          24          24         0,0           1
+untitled140$Request.edit#load                         1305,0        1305        1305         0,0           1
+untitled140$Request.edit#uiPermissions                   0,0           0           0         0,0           1
+untitled140$Request.edit#xml                             4,4           0          22         8,8           5
+untitled140$Request.edit.actionsFrame#init               0,0           0           0         0,0           1
+untitled140$Request.edit.actionsFrame#inject             8,0           8           8         0,0           1
+untitled140$Request.edit.actionsFrame#load               0,0           0           0         0,0           1
+untitled140$Request.edit.cardAttachmentsFrame#init       549,0         549         549         0,0           1
+untitled140$Request.edit.cardAttachmentsFrame#inject        15,0          15          15         0,0           1
+untitled140$Request.edit.cardAttachmentsFrame#load       150,0         150         150         0,0           1
+untitled140$Request.edit.cardProcFrame#init             12,0          12          12         0,0           1
+untitled140$Request.edit.cardProcFrame#inject           11,0          11          11         0,0           1
+untitled140$Request.edit.cardProcFrame#load             93,0          93          93         0,0           1
+untitled140$Request.edit.cardProcFrame.cardRolesFrame#init         6,0           6           6         0,0           1
+untitled140$Request.edit.cardProcFrame.cardRolesFrame#inject        21,0          21          21         0,0           1
+untitled140$Request.edit.cardProcFrame.cardRolesFrame#load        55,0          55          55         0,0           1
+untitled140$Request.edit.cardProcFrame@procDs           47,0          47          47         0,0           1
+untitled140$Request.edit.cardTreeFrame#init              0,0           0           0         0,0           1
+untitled140$Request.edit.cardTreeFrame#inject            0,0           0           0         0,0           1
+untitled140$Request.edit.cardTreeFrame#load              1,0           1           1         0,0           1
 untitled140$Request.edit.cardTreeFrame@cardTreeDs         1,0           1           1         0,0           1
 untitled140$Request.edit.resolutionsFrame#init           0,0           0           0         0,0           1
 untitled140$Request.edit.resolutionsFrame#inject         0,0           0           0         0,0           1
 untitled140$Request.edit.resolutionsFrame#load           2,0           2           2         0,0           1
-untitled140$Request.edit.resolutionsFrame@resolutionsDs        23,0          23          23         0,0           1
+untitled140$Request.edit.resolutionsFrame@resolutionsDs        77,0          77          77         0,0           1
 untitled140$Request.edit.startProcessButtonsFrame#init         0,0           0           0         0,0           1
-untitled140$Request.edit.startProcessButtonsFrame#inject         4,0           4           4         0,0           1
+untitled140$Request.edit.startProcessButtonsFrame#inject         6,0           6           6         0,0           1
 untitled140$Request.edit.startProcessButtonsFrame#load         0,0           0           0         0,0           1
-untitled140$Request.edit@attachmentsDs                 104,0         104         104         0,0           1
+untitled140$Request.edit@attachmentsDs                 160,0         160         160         0,0           1
 untitled140$Request.lookup#afterShow                     0,0           0           0         0,0           1
 untitled140$Request.lookup#beforeShow                    0,0           0           0         0,0           1
-untitled140$Request.lookup#create                       19,0          19          19         0,0           1
-untitled140$Request.lookup#init                        198,0         198         198         0,0           1
-untitled140$Request.lookup#inject                       35,0          35          35         0,0           1
-untitled140$Request.lookup#load                       1285,0        1285        1285         0,0           1
+untitled140$Request.lookup#create                       16,0          16          16         0,0           1
+untitled140$Request.lookup#init                        823,0         823         823         0,0           1
+untitled140$Request.lookup#inject                      330,0         330         330         0,0           1
+untitled140$Request.lookup#load                       1772,0        1772        1772         0,0           1
 untitled140$Request.lookup#uiPermissions                 0,0           0           0         0,0           1
-untitled140$Request.lookup#xml                           1,0           0           2         1,0           2
+untitled140$Request.lookup#xml                          12,0           0          24        12,0           2
 untitled140$Request.lookup.cardTreeFrame#init            7,0           7           7         0,0           1
 untitled140$Request.lookup.cardTreeFrame#inject          3,0           3           3         0,0           1
-untitled140$Request.lookup.cardTreeFrame#load           66,0          66          66         0,0           1
+untitled140$Request.lookup.cardTreeFrame#load           83,0          83          83         0,0           1
 untitled140$Request.lookup.cardTreeFrame@cardTreeDs         0,0           0           0         0,0           1
 untitled140$Request.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$Request.lookup.resolutionsFrame#init        20,0          20          20         0,0           1
+untitled140$Request.lookup.resolutionsFrame#init        12,0          12          12         0,0           1
 untitled140$Request.lookup.resolutionsFrame#inject         5,0           5           5         0,0           1
-untitled140$Request.lookup.resolutionsFrame#load        82,0          82          82         0,0           1
-untitled140$Request.lookup.resolutionsFrame@resolutionsDs       107,0         107         107         0,0           1
-untitled140$Request.lookup@cardsDs                     181,0         181         181         0,0           1
-voiceControlConsole#create                              95,0          95          95         0,0           1
-voiceControlConsole#xml                                  3,0           3           3         0,0           1
-
-Performance Statistics   2021-12-27 15:40:00 - 2021-12-27 15:42:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 15:42:00 - 2021-12-27 15:44:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 15:44:00 - 2021-12-27 15:46:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 15:46:00 - 2021-12-27 15:48:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 15:48:00 - 2021-12-27 15:50:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 15:50:00 - 2021-12-27 15:52:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 15:52:00 - 2021-12-27 15:54:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-
-Performance Statistics   2021-12-27 16:48:00 - 2021-12-27 16:50:00
-Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-CardDeadlineDatasource#loadTree                         31,0          31          31         0,0           1
-MenuItem.untitled140$Booking.lookup                    198,0         198         198         0,0           1
-MenuItem.untitled140$TypeOfPushcare.lookup            2657,0        2657        2657         0,0           1
-MenuItem.untitled140$TypeOfTransport.lookup            221,0         221         221         0,0           1
-TDS null                                                64,0          64          64         0,0           1
-editWindowActions#create                                 2,3           0           7         3,3           3
-editWindowActions#xml                                    0,2           0           1         0,4           6
-loginWindow#afterShow                                    0,0           0           0         0,0           1
-loginWindow#beforeShow                                   2,0           2           2         0,0           1
-loginWindow#create                                     150,0         150         150         0,0           1
-loginWindow#init                                        37,0          37          37         0,0           1
-loginWindow#inject                                      67,0          67          67         0,0           1
-loginWindow#load                                       626,0         626         626         0,0           1
-loginWindow#uiPermissions                                1,0           1           1         0,0           1
-loginWindow#xml                                          6,0           0          12         6,0           2
-lookupWindowActions#create                               0,3           0           1         0,5           3
-lookupWindowActions#inject                               1,7           0           5         2,4           3
-lookupWindowActions#load                                 1,3           0           4         1,9           3
-lookupWindowActions#xml                                  0,2           0           1         0,4           6
-mainWindow#afterShow                                     4,0           4           4         0,0           1
-mainWindow#beforeShow                                    0,0           0           0         0,0           1
-mainWindow#create                                        9,0           9           9         0,0           1
-mainWindow#init                                        225,0         225         225         0,0           1
-mainWindow#inject                                       18,0          18          18         0,0           1
-mainWindow#load                                       1655,0        1655        1655         0,0           1
-mainWindow#uiPermissions                                 0,0           0           0         0,0           1
-mainWindow#xml                                           1,5           0           3         1,5           2
-mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
-mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
-mainWindow.voiceControlConsole#load                     66,0          66          66         0,0           1
-untitled140$Booking.edit#afterShow                       0,0           0           0         0,0           1
-untitled140$Booking.edit#beforeShow                      0,0           0           0         0,0           1
-untitled140$Booking.edit#create                          0,0           0           0         0,0           1
-untitled140$Booking.edit#init                            0,0           0           0         0,0           1
-untitled140$Booking.edit#inject                          6,0           6           6         0,0           1
-untitled140$Booking.edit#load                           33,0          33          33         0,0           1
-untitled140$Booking.edit#uiPermissions                   0,0           0           0         0,0           1
-untitled140$Booking.edit#xml                             0,2           0           1         0,4           5
-untitled140$Booking.edit.windowActions#init              0,0           0           0         0,0           1
-untitled140$Booking.edit.windowActions#inject            0,0           0           0         0,0           1
-untitled140$Booking.edit.windowActions#load              0,0           0           0         0,0           1
-untitled140$Booking.lookup#afterShow                     0,0           0           0         0,0           1
-untitled140$Booking.lookup#beforeShow                    0,0           0           0         0,0           1
-untitled140$Booking.lookup#create                        0,0           0           0         0,0           1
-untitled140$Booking.lookup#init                          0,0           0           0         0,0           1
-untitled140$Booking.lookup#inject                        6,0           6           6         0,0           1
-untitled140$Booking.lookup#load                         32,0          32          32         0,0           1
-untitled140$Booking.lookup#uiPermissions                 0,0           0           0         0,0           1
-untitled140$Booking.lookup#xml                           1,0           0           2         1,0           2
-untitled140$Booking.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$Booking.lookup@bookingsDs                    7,0           7           7         0,0           1
-untitled140$TypeOfPushcare.edit#afterShow                0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.edit#beforeShow               0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.edit#create                   2,0           2           2         0,0           1
-untitled140$TypeOfPushcare.edit#init                     2,0           2           2         0,0           1
-untitled140$TypeOfPushcare.edit#inject                   6,0           6           6         0,0           1
-untitled140$TypeOfPushcare.edit#load                   277,0         277         277         0,0           1
-untitled140$TypeOfPushcare.edit#uiPermissions            0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.edit#xml                      2,4           0          12         4,8           5
-untitled140$TypeOfPushcare.edit.windowActions#init         0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.edit.windowActions#inject         1,0           1           1         0,0           1
-untitled140$TypeOfPushcare.edit.windowActions#load         8,0           8           8         0,0           1
-untitled140$TypeOfPushcare.lookup#afterShow              0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#beforeShow             0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#create                13,0          13          13         0,0           1
-untitled140$TypeOfPushcare.lookup#init                   6,0           6           6         0,0           1
-untitled140$TypeOfPushcare.lookup#inject                30,0          30          30         0,0           1
-untitled140$TypeOfPushcare.lookup#load                 668,0         668         668         0,0           1
-untitled140$TypeOfPushcare.lookup#uiPermissions          0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#xml                    1,0           0           2         1,0           2
-untitled140$TypeOfPushcare.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup@typeOfPushcaresDs       254,0         254         254         0,0           1
-untitled140$TypeOfTransport.edit#afterShow               0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit#beforeShow              0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit#create                  0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit#init                    0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit#inject                  8,0           8           8         0,0           1
-untitled140$TypeOfTransport.edit#load                   40,0          40          40         0,0           1
-untitled140$TypeOfTransport.edit#uiPermissions           0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit#xml                     0,2           0           1         0,4           5
-untitled140$TypeOfTransport.edit.windowActions#init         0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit.windowActions#inject         0,0           0           0         0,0           1
-untitled140$TypeOfTransport.edit.windowActions#load         0,0           0           0         0,0           1
+untitled140$Request.lookup.resolutionsFrame#load       120,0         120         120         0,0           1
+untitled140$Request.lookup.resolutionsFrame@resolutionsDs       136,0         136         136         0,0           1
+untitled140$Request.lookup@cardsDs                     812,0         812         812         0,0           1
 untitled140$TypeOfTransport.lookup#afterShow             0,0           0           0         0,0           1
-untitled140$TypeOfTransport.lookup#beforeShow            0,0           0           0         0,0           1
+untitled140$TypeOfTransport.lookup#beforeShow            1,0           1           1         0,0           1
 untitled140$TypeOfTransport.lookup#create                0,0           0           0         0,0           1
 untitled140$TypeOfTransport.lookup#init                  0,0           0           0         0,0           1
-untitled140$TypeOfTransport.lookup#inject                6,0           6           6         0,0           1
-untitled140$TypeOfTransport.lookup#load                 27,0          27          27         0,0           1
+untitled140$TypeOfTransport.lookup#inject                5,0           5           5         0,0           1
+untitled140$TypeOfTransport.lookup#load                 18,0          18          18         0,0           1
 untitled140$TypeOfTransport.lookup#uiPermissions         0,0           0           0         0,0           1
-untitled140$TypeOfTransport.lookup#xml                   1,5           0           3         1,5           2
+untitled140$TypeOfTransport.lookup#xml                   0,2           0           1         0,4           5
 untitled140$TypeOfTransport.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$TypeOfTransport.lookup@typeOfTransportsDs         7,0           7           7         0,0           1
-voiceControlConsole#create                              65,0          65          65         0,0           1
-voiceControlConsole#xml                                  1,0           1           1         0,0           1
+untitled140$TypeOfTransport.lookup@typeOfTransportsDs        53,0          53          53         0,0           1
 
-Performance Statistics   2021-12-27 16:50:00 - 2021-12-27 16:52:00
+Performance Statistics   2021-12-28 11:32:00 - 2021-12-28 11:34:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-CardDeadlineDatasource#loadTree                         14,0          12          15         1,4           3
-MenuItem.untitled140$ExpenceItem.lookup                246,0         246         246         0,0           1
-MenuItem.untitled140$TypeOfPushcare.lookup              93,0          93          93         0,0           1
-TDS null                                                14,0          12          15         1,4           3
-editWindowActions#create                                 0,0           0           0         0,0           1
-editWindowActions#xml                                    0,0           0           0         0,0           2
-lookupWindowActions#create                               0,0           0           0         0,0           2
-lookupWindowActions#inject                               0,0           0           0         0,0           2
-lookupWindowActions#load                                 0,0           0           0         0,0           2
-lookupWindowActions#xml                                  0,0           0           0         0,0           4
-untitled140$ExpenceItem.edit#afterShow                   0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit#beforeShow                  0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit#create                      0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit#init                        0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit#inject                      5,0           5           5         0,0           1
-untitled140$ExpenceItem.edit#load                       39,0          39          39         0,0           1
-untitled140$ExpenceItem.edit#uiPermissions               0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit#xml                         0,2           0           1         0,4           5
-untitled140$ExpenceItem.edit.windowActions#init          0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit.windowActions#inject         0,0           0           0         0,0           1
-untitled140$ExpenceItem.edit.windowActions#load          0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup#afterShow                 0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup#beforeShow                0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup#create                    0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup#init                      0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup#inject                    5,0           5           5         0,0           1
-untitled140$ExpenceItem.lookup#load                     39,0          39          39         0,0           1
-untitled140$ExpenceItem.lookup#uiPermissions             0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup#xml                      26,0           0          52        26,0           2
-untitled140$ExpenceItem.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$ExpenceItem.lookup@expenceItemsDs            7,0           7           7         0,0           1
-untitled140$TypeOfPushcare.lookup#afterShow              0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#beforeShow             0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#create                 0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#init                   0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#inject                 0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#load                   6,0           6           6         0,0           1
-untitled140$TypeOfPushcare.lookup#uiPermissions          0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup#xml                    1,0           0           2         1,0           2
-untitled140$TypeOfPushcare.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$TypeOfPushcare.lookup@typeOfPushcaresDs        18,0          18          18         0,0           1
 
-Performance Statistics   2021-12-27 16:52:00 - 2021-12-27 16:54:00
+Performance Statistics   2021-12-28 11:34:00 - 2021-12-28 11:36:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-CardDeadlineDatasource#loadTree                         11,0          11          11         0,0           2
-MenuItem.untitled140$Booking.lookup                     52,0          52          52         0,0           1
-MenuItem.untitled140$CFO.lookup                       1235,0        1235        1235         0,0           1
-TDS null                                                13,0          12          14         1,0           2
-editWindowActions#create                                 0,0           0           0         0,0           1
-editWindowActions#xml                                    0,0           0           0         0,0           2
-lookupWindowActions#create                               0,0           0           0         0,0           2
-lookupWindowActions#inject                               0,0           0           0         0,0           2
-lookupWindowActions#load                                 0,0           0           0         0,0           2
-lookupWindowActions#xml                                  0,0           0           0         0,0           4
-untitled140$Booking.lookup#afterShow                     0,0           0           0         0,0           1
-untitled140$Booking.lookup#beforeShow                    0,0           0           0         0,0           1
-untitled140$Booking.lookup#create                        0,0           0           0         0,0           1
-untitled140$Booking.lookup#init                          0,0           0           0         0,0           1
-untitled140$Booking.lookup#inject                        0,0           0           0         0,0           1
-untitled140$Booking.lookup#load                          5,0           5           5         0,0           1
-untitled140$Booking.lookup#uiPermissions                 0,0           0           0         0,0           1
-untitled140$Booking.lookup#xml                           0,5           0           1         0,5           2
-untitled140$Booking.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
-untitled140$Booking.lookup@bookingsDs                    5,0           5           5         0,0           1
-untitled140$CFO.edit#afterShow                           0,0           0           0         0,0           1
-untitled140$CFO.edit#beforeShow                          0,0           0           0         0,0           1
-untitled140$CFO.edit#create                              0,0           0           0         0,0           1
-untitled140$CFO.edit#init                                0,0           0           0         0,0           1
-untitled140$CFO.edit#inject                              5,0           5           5         0,0           1
-untitled140$CFO.edit#load                               33,0          33          33         0,0           1
-untitled140$CFO.edit#uiPermissions                       0,0           0           0         0,0           1
-untitled140$CFO.edit#xml                                 0,2           0           1         0,4           5
-untitled140$CFO.edit.windowActions#init                  0,0           0           0         0,0           1
-untitled140$CFO.edit.windowActions#inject                0,0           0           0         0,0           1
-untitled140$CFO.edit.windowActions#load                  0,0           0           0         0,0           1
-untitled140$CFO.lookup#afterShow                         0,0           0           0         0,0           1
-untitled140$CFO.lookup#beforeShow                        0,0           0           0         0,0           1
-untitled140$CFO.lookup#create                            0,0           0           0         0,0           1
-untitled140$CFO.lookup#init                              0,0           0           0         0,0           1
-untitled140$CFO.lookup#inject                            5,0           5           5         0,0           1
-untitled140$CFO.lookup#load                            118,0         118         118         0,0           1
-untitled140$CFO.lookup#uiPermissions                     0,0           0           0         0,0           1
-untitled140$CFO.lookup#xml                             266,5           0         533       266,5           2
-untitled140$CFO.lookup.lookupWindowActions#init          0,0           0           0         0,0           1
-untitled140$CFO.lookup@cFoesDs                           8,0           8           8         0,0           1
 
-Performance Statistics   2021-12-27 18:26:00 - 2021-12-27 18:28:00
+Performance Statistics   2021-12-28 11:36:00 - 2021-12-28 11:38:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
-CardDeadlineDatasource#loadTree                         30,0          30          30         0,0           1
-TDS null                                                79,0          79          79         0,0           1
-cardTreeFrame#create                                     2,0           2           2         0,0           1
-cardTreeFrame#xml                                        0,5           0           1         0,5           2
-loginWindow#afterShow                                    0,0           0           0         0,0           1
-loginWindow#beforeShow                                   2,0           2           2         0,0           1
-loginWindow#create                                     311,0         311         311         0,0           1
-loginWindow#init                                       102,0         102         102         0,0           1
-loginWindow#inject                                     147,0         147         147         0,0           1
-loginWindow#load                                       604,0         604         604         0,0           1
-loginWindow#uiPermissions                                1,0           1           1         0,0           1
-loginWindow#xml                                         35,0           0          70        35,0           2
-mainWindow#afterShow                                     3,0           3           3         0,0           1
-mainWindow#beforeShow                                    0,0           0           0         0,0           1
-mainWindow#create                                       28,0          28          28         0,0           1
-mainWindow#init                                        222,0         222         222         0,0           1
-mainWindow#inject                                       14,0          14          14         0,0           1
-mainWindow#load                                       1488,0        1488        1488         0,0           1
-mainWindow#uiPermissions                                 0,0           0           0         0,0           1
-mainWindow#xml                                           6,5           0          13         6,5           2
-mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
-mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
-mainWindow.voiceControlConsole#load                     42,0          42          42         0,0           1
-resolutionsFrame#create                                 48,0          48          48         0,0           1
-resolutionsFrame#xml                                     2,0           0           4         2,0           2
-untitled140$Request.lookup#create                       14,0          14          14         0,0           1
-untitled140$Request.lookup#init                        221,0         221         221         0,0           1
-untitled140$Request.lookup#inject                       31,0          31          31         0,0           1
-untitled140$Request.lookup#load                       1406,0        1406        1406         0,0           1
-untitled140$Request.lookup#xml                           0,5           0           1         0,5           2
-untitled140$Request.lookup.cardTreeFrame#inject          4,0           4           4         0,0           1
-untitled140$Request.lookup.cardTreeFrame#load           69,0          69          69         0,0           1
-untitled140$Request.lookup.resolutionsFrame#inject         6,0           6           6         0,0           1
-untitled140$Request.lookup.resolutionsFrame#load       222,0         222         222         0,0           1
-voiceControlConsole#create                              68,0          68          68         0,0           1
-voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-12-28 11:38:00 - 2021-12-28 11:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
