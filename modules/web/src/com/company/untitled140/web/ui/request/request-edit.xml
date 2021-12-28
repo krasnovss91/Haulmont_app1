@@ -26,23 +26,13 @@
         </collectionDatasource>
 
         <collectionDatasource id="employeesDs" class="com.company.untitled140.entity.Request" view="employeeName-view"/>
-        <collectionDatasource id="positionsDs" class="com.company.untitled140.entity.Request" view="employeePosition-view"/>
+        <collectionDatasource id="positionsDs" class="com.company.untitled140.entity.Request"
+                              view="employeePosition-view"/>
 
-<!--
-        <collectionDatasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_minimal">
-            <query>
-                <![CDATA[select c from untitled140$CFO"]]>
-            </query>
-        </collectionDatasource>
-        <collectionDatasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_minimal">
-            <query>
-                <![CDATA[select i from untitled140$ExpenceItem]]>
-            </query>
-        </collectionDatasource>
-        -->
+
         <datasource id="cfoLineDs" class="com.company.untitled140.entity.CfoLine" view="_local"/>
         <datasource id="cfoDs" class="com.company.untitled140.entity.CFO" view="_local"/>
-       <datasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
+        <datasource id="expenceItemDs" class="com.company.untitled140.entity.ExpenceItem" view="_local"/>
         <datasource id="requestDs" class="com.company.untitled140.entity.Request" view="_local"/>
 
     </dsContext>
@@ -50,27 +40,27 @@
         <split id="split" orientation="vertical" pos="70" width="100%">
             <hbox id="mainPane" height="100%" width="100%">
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
-                    <tabSheet id="tabsheet" height="100%"> <!-- здесь 2 вкладки- детали и ЦФО -->
+                    <tabSheet id="tabsheet" height="100%">
                         <tab id="details">
-                           <!-- <textField datasource="requestDs" property="number"/> -->
+
                             <dateField datasource="requestDs" property="date" caption="дата"/>
                             <lookupPickerField datasource="requestDs" property="initiator" caption="инициатор"/>
-                            <lookupPickerField datasource="requestDs" property="categoryOfRequest" caption="категория заявки"/>
-                           <!-- <lookupPickerField datasource="requestDs" property="base"/> -->
+                            <lookupPickerField datasource="requestDs" property="categoryOfRequest"
+                                               caption="категория заявки"/>
                             <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
-                            <textField datasource="requestDs" property="justificationForExclusivity" caption="обоснование эксклюзивности"/>
-                          <!--  <lookupPickerField datasource="requestDs" property="employee"/>  -->
+                            <textField datasource="requestDs" property="justificationForExclusivity"
+                                       caption="обоснование эксклюзивности"/>
+
                             <lookupPickerField datasource="employeesDs" property="employee"/>
                             <lookupPickerField datasource="positionsDs" property="employee"/>
-                            <!--использовать employeeName-view -->
-                            <!--        <datasource id="cardDs" class="com.company.velo3.entity.ExTask" view="exTask-edit">
-                                          <groupDatasource id="veloDetailsDs" property="veloDetail"/>
-                                          </datasource> -->
 
-                            <textField datasource="requestDs" property="purposeOfBusinessTrip" caption="цель командировки"/>
+                            <textField datasource="requestDs" property="purposeOfBusinessTrip"
+                                       caption="цель командировки"/>
                             <textField datasource="requestDs" property="way" caption="направление"/>
-                            <dateField datasource="requestDs" property="businessTripStart" caption="дата начала командировки"/>
-                            <dateField datasource="requestDs" property="businessTripEnd" caption="дата окончания командировки"/>
+                            <dateField datasource="requestDs" property="businessTripStart"
+                                       caption="дата начала командировки"/>
+                            <dateField datasource="requestDs" property="businessTripEnd"
+                                       caption="дата окончания командировки"/>
                             <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
                             <lookupPickerField datasource="requestDs" property="booking" caption="бронирование"/>
                             <textField datasource="requestDs" property="fare" caption="стоимость проезда"/>
@@ -80,9 +70,12 @@
                             <textField datasource="requestDs" property="costOfLiving" caption="стоимость проживания"/>
                             <textField datasource="requestDs" property="dailyAllowance" caption="суточные"/>
                             <textField datasource="requestDs" property="totalCost" caption="итоговая стоимость"/>
-                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget" caption="наличие средств в бюджете"/>
-                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT" caption="планируемая стоимость закупки с учётом НДС"/>
-                            <textField datasource="requestDs" property="recipientOrganization" caption="организация-получатель"/>
+                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget"
+                                               caption="наличие средств в бюджете"/>
+                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT"
+                                       caption="планируемая стоимость закупки с учётом НДС"/>
+                            <textField datasource="requestDs" property="recipientOrganization"
+                                       caption="организация-получатель"/>
                             <textField datasource="requestDs" property="addressOfDelivery" caption="адрес доставки"/>
                             <textField datasource="requestDs" property="nameOfCargo" caption="наименование груза"/>
                             <textField datasource="requestDs" property="deliveryTimeRequest" caption="описание"/>
@@ -95,7 +88,8 @@
                                 <rows>
                                     <row>
                                         <lookupPickerField datasource="cfoLineDs" property="cfo" caption="ЦФО"/>
-                                        <lookupPickerField datasource="cfoLineDs" property="expenceItem" caption="Статья расходов"/>
+                                        <lookupPickerField datasource="cfoLineDs" property="expenceItem"
+                                                           caption="Статья расходов"/>
                                         <currencyField datasource="cfoLineDs" property="sum" caption="Сумма"/>
                                     </row>
                                 </rows>
@@ -123,9 +117,6 @@
                                                     datasource="cardDs"
                                                     stylename="thesis-separator"
                                                     width="${bigFieldWidth}">
-                                       <!--     <column width="250px">
-                                                <field id="number" property="number"/>
-                                            </column> -->
                                         </fieldGroup>
                                         <hbox id="signatureBox" spacing="true" margin="true;false;false;false">
                                             <label id="signatureLabel" value="msg://cardSignatureLab"
