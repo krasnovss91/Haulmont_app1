@@ -410,3 +410,52 @@ untitled140$Request.lookup@cardsDs                     190,0         190        
 voiceControlConsole#create                             193,0         193         193         0,0           1
 voiceControlConsole#xml                                  1,0           1           1         0,0           1
 
+Performance Statistics   2021-12-28 12:48:00 - 2021-12-28 12:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         26,0          26          26         0,0           1
+TDS null                                                89,0          89          89         0,0           1
+cardTreeFrame#create                                     3,0           3           3         0,0           1
+cardTreeFrame#xml                                        0,5           0           1         0,5           2
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     535,0         535         535         0,0           1
+loginWindow#init                                       120,0         120         120         0,0           1
+loginWindow#inject                                     388,0         388         388         0,0           1
+loginWindow#load                                      1259,0        1259        1259         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         68,5           0         137        68,5           2
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               4,0           4           4         0,0           1
+lookupWindowActions#load                                 1,0           1           1         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     4,0           4           4         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       14,0          14          14         0,0           1
+mainWindow#init                                        598,0         598         598         0,0           1
+mainWindow#inject                                       17,0          17          17         0,0           1
+mainWindow#load                                       2784,0        2784        2784         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                          20,0           0          40        20,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
+mainWindow.voiceControlConsole#load                     46,0          46          46         0,0           1
+resolutionsFrame#create                                 62,0          62          62         0,0           1
+resolutionsFrame#xml                                     8,5           0          17         8,5           2
+untitled140$Request.lookup#beforeShow                    0,0           0           0         0,0           1
+untitled140$Request.lookup#create                       18,0          18          18         0,0           1
+untitled140$Request.lookup#init                        236,0         236         236         0,0           1
+untitled140$Request.lookup#inject                       35,0          35          35         0,0           1
+untitled140$Request.lookup#load                       1330,0        1330        1330         0,0           1
+untitled140$Request.lookup#uiPermissions                 0,0           0           0         0,0           1
+untitled140$Request.lookup#xml                           2,5           0           5         2,5           2
+untitled140$Request.lookup.cardTreeFrame#init           12,0          12          12         0,0           1
+untitled140$Request.lookup.cardTreeFrame#inject          5,0           5           5         0,0           1
+untitled140$Request.lookup.cardTreeFrame#load           50,0          50          50         0,0           1
+untitled140$Request.lookup.lookupWindowActions#init         0,0           0           0         0,0           1
+untitled140$Request.lookup.resolutionsFrame#init        12,0          12          12         0,0           1
+untitled140$Request.lookup.resolutionsFrame#inject         5,0           5           5         0,0           1
+untitled140$Request.lookup.resolutionsFrame#load        74,0          74          74         0,0           1
+untitled140$Request.lookup@cardsDs                    1041,0        1041        1041         0,0           1
+voiceControlConsole#create                              62,0          62          62         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+

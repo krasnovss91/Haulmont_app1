@@ -68,29 +68,29 @@
 
                             <textField datasource="requestDs" property="purposeOfBusinessTrip" caption="цель командировки"/>
                             <textField datasource="requestDs" property="way" caption="направление"/>
-                            <dateField datasource="requestDs" property="businessTripStart"/>
-                            <dateField datasource="requestDs" property="businessTripEnd"/>
+                            <dateField datasource="requestDs" property="businessTripStart" caption=""/>
+                            <dateField datasource="requestDs" property="businessTripEnd" caption=""/>
                             <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
                             <lookupPickerField datasource="requestDs" property="booking" caption="бронирование"/>
                             <textField datasource="requestDs" property="fare" caption="стоимость проезда"/>
-                            <textField datasource="requestDs" property="hotel"/>
-                            <dateField datasource="requestDs" property="arrivalDate"/>
-                            <dateField datasource="requestDs" property="departureDate"/>
-                            <textField datasource="requestDs" property="costOfLiving"/>
-                            <textField datasource="requestDs" property="dailyAllowance"/>
-                            <textField datasource="requestDs" property="totalCost"/>
-                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget"/>
-                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT"/>
-                            <textField datasource="requestDs" property="recipientOrganization"/>
-                            <textField datasource="requestDs" property="addressOfDelivery"/>
-                            <textField datasource="requestDs" property="nameOfCargo"/>
-                            <textField datasource="requestDs" property="deliveryTimeRequest"/>
-                            <textField datasource="requestDs" property="descriptions"/>
+                            <textField datasource="requestDs" property="hotel" caption=""/>
+                            <dateField datasource="requestDs" property="arrivalDate" caption=""/>
+                            <dateField datasource="requestDs" property="departureDate" caption=""/>
+                            <textField datasource="requestDs" property="costOfLiving" caption=""/>
+                            <textField datasource="requestDs" property="dailyAllowance" caption=""/>
+                            <textField datasource="requestDs" property="totalCost" caption=""/>
+                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget" caption=""/>
+                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT" caption=""/>
+                            <textField datasource="requestDs" property="recipientOrganization" caption=""/>
+                            <textField datasource="requestDs" property="addressOfDelivery" caption=""/>
+                            <textField datasource="requestDs" property="nameOfCargo" caption=""/>
+                            <textField datasource="requestDs" property="deliveryTimeRequest" caption=""/>
+                            <textField datasource="requestDs" property="descriptions" caption=""/>
                         </tab>
                         <tab id="CFO">
-                            <lookupPickerField datasource="cfoDs" property="name"/>
-                            <lookupPickerField datasource="expenceItemDs" property="name"/>
-                            <currencyField datasource="requestDs" property="sum"/>
+                            <lookupPickerField datasource="cfoDs" property="name" caption="ЦФО"/>
+                            <lookupPickerField datasource="expenceItemDs" property="name" caption="Статья расходов"/>
+                            <currencyField datasource="requestDs" property="sum" caption="Сумма"/>
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"
