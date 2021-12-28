@@ -90,37 +90,6 @@
                         </tab>
                         <tab id="CFO">
 
-                            <!--
-                            <grid id="cfoInfo" spacing="true" visible="false"
-                                  margin="true,false,false,false" width="550px">
-                                <columns>
-                                    <column flex="1"/>
-                                </columns>
-                                <rows>
-                                    <row> <lookupPickerField datasource="cfoDs" property="name" caption="ЦФО"/></row>
-                                    <row><lookupPickerField datasource="expenceItemDs" property="name" caption="Статья расходов"/></row>
-                                    <row> <currencyField datasource="requestDs" property="sum" caption="Сумма"/></row>
-                                </rows>
-                            </grid>
-                            -->
-
-                            <!--
-                            <grid spacing="true">
-                                <columns count="4"/>
-                                  <rows>
-                                    <row>
-                                  <label value="Field1"/>
-                                  <textField/>
-                                 <label value="Field2"/>
-                                 <textField/>
-                                 </row>
-                                <row>
-                                <label value="Field3"/>
-                               <textField colspan="3" width="100%"/>
-                               </row>
-                                </rows>
-                            </grid
-                            -->
                             <grid spacing="true">
                                 <columns count="4"/>
                                 <rows>
@@ -131,11 +100,6 @@
                                     </row>
                                 </rows>
                             </grid>
-                            <!--
-                            <lookupPickerField datasource="cfoLineDs" property="cfo" caption="ЦФО"/>
-                            <lookupPickerField datasource="cfoLineDs" property="expenceItem" caption="Статья расходов"/>
-                            <currencyField datasource="cfoLineDs" property="sum" caption="Сумма"/>
-                          -->
 
                         </tab>
                         <tab id="mainTab" caption="msg://mainTab" margin="true">
