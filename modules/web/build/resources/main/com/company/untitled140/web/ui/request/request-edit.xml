@@ -41,9 +41,72 @@
             <hbox id="mainPane" height="100%" width="100%">
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
                     <tabSheet id="tabsheet" height="100%">
-                        <tab id="details">
+                        <tab id="details"> <!--сделать grid как в simple-doc-edit -->
 
                             <dateField datasource="requestDs" property="date" caption="дата"/>
+
+                            <grid id="detailInfo" spacing="true"
+                                  margin="true,false,true,false" stylename="thesis-separator">
+                                <columns>
+                                    <column flex="1"/>
+                                    <column flex="1"/>
+                                    <column flex="1"/>
+                                    <column flex="1"/>
+                                    <column/>
+                                </columns>
+                                <rows>
+                                    <row> <!--растаскиваем компоненты по разным row -->
+                                        <lookupPickerField datasource="requestDs" property="initiator" caption="инициатор"/>
+                                        <lookupPickerField datasource="requestDs" property="categoryOfRequest"
+                                                           caption="категория заявки"/>
+                                        <lookupPickerField datasource="requestDs" property="typeOfPushcare"/>
+                                        <textField datasource="requestDs" property="planedPushcarePriceWithVAT"
+                                                   caption="планируемая стоимость закупки с учётом НДС"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="justificationForExclusivity"
+                                                   caption="обоснование эксклюзивности"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="purposeOfBusinessTrip"
+                                                   caption="цель командировки"/>
+                                        <textField datasource="requestDs" property="way" caption="направление"/>
+                                    </row>
+                                    <row>
+                                        <dateField datasource="requestDs" property="businessTripStart"
+                                                   caption="дата начала командировки"/>
+                                        <dateField datasource="requestDs" property="businessTripEnd"
+                                                   caption="дата окончания командировки"/>
+                                    </row>
+                                    <row>
+                                        <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="hotel" caption="гостиница"/>
+                                    </row>
+                                    <row>
+                                        <dateField datasource="requestDs" property="arrivalDate" caption="дата заезда"/>
+                                        <dateField datasource="requestDs" property="departureDate" caption="дата выезда"/>
+                                        <textField datasource="requestDs" property="costOfLiving" caption="стоимость проживания"/>
+                                        <textField datasource="requestDs" property="dailyAllowance" caption="суточные"/>
+                                        <textField datasource="requestDs" property="totalCost" caption="итоговая стоимость"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="recipientOrganization"
+                                                   caption="организация-получатель"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="addressOfDelivery" caption="адрес доставки"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="nameOfCargo" caption="наименование груза"/>
+                                    </row>
+                                    <row>
+                                        <textField datasource="requestDs" property="descriptions" caption="описание"/>
+                                    </row>
+                                </rows>
+                            </grid>
+ <!--
                             <lookupPickerField datasource="requestDs" property="initiator" caption="инициатор"/>
                             <lookupPickerField datasource="requestDs" property="categoryOfRequest"
                                                caption="категория заявки"/>
@@ -80,6 +143,7 @@
                             <textField datasource="requestDs" property="nameOfCargo" caption="наименование груза"/>
                             <textField datasource="requestDs" property="deliveryTimeRequest" caption="описание"/>
                             <textField datasource="requestDs" property="descriptions" caption="описание"/>
+                            -->
                         </tab>
                         <tab id="CFO">
 
