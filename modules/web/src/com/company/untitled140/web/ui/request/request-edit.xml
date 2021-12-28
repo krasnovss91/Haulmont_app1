@@ -41,9 +41,25 @@
             <hbox id="mainPane" height="100%" width="100%">
                 <hbox id="dropZoneBox" height="100%" width="100%" expand="tabsheet">
                     <tabSheet id="tabsheet" height="100%">
-                        <tab id="details">
+                        <tab id="details"> <!--сделать grid как в simple-doc-edit -->
 
                             <dateField datasource="requestDs" property="date" caption="дата"/>
+
+                            <grid id="detailInfo" spacing="true"
+                                  margin="true,false,true,false" stylename="thesis-separator">
+                                <columns>
+                                    <column flex="1"/>
+                                    <column flex="1"/>
+                                    <column flex="1"/>
+                                    <column flex="1"/>
+                                </columns>
+                                <rows>
+                                    <row>
+
+                                    </row>
+                                </rows>
+                            </grid>
+
                             <lookupPickerField datasource="requestDs" property="initiator" caption="инициатор"/>
                             <lookupPickerField datasource="requestDs" property="categoryOfRequest"
                                                caption="категория заявки"/>
