@@ -68,24 +68,24 @@
 
                             <textField datasource="requestDs" property="purposeOfBusinessTrip" caption="цель командировки"/>
                             <textField datasource="requestDs" property="way" caption="направление"/>
-                            <dateField datasource="requestDs" property="businessTripStart" caption=""/>
-                            <dateField datasource="requestDs" property="businessTripEnd" caption=""/>
+                            <dateField datasource="requestDs" property="businessTripStart" caption="дата начала командировки"/>
+                            <dateField datasource="requestDs" property="businessTripEnd" caption="дата окончания командировки"/>
                             <lookupPickerField datasource="requestDs" property="typeOfTransport"/>
                             <lookupPickerField datasource="requestDs" property="booking" caption="бронирование"/>
                             <textField datasource="requestDs" property="fare" caption="стоимость проезда"/>
-                            <textField datasource="requestDs" property="hotel" caption=""/>
-                            <dateField datasource="requestDs" property="arrivalDate" caption=""/>
-                            <dateField datasource="requestDs" property="departureDate" caption=""/>
-                            <textField datasource="requestDs" property="costOfLiving" caption=""/>
-                            <textField datasource="requestDs" property="dailyAllowance" caption=""/>
-                            <textField datasource="requestDs" property="totalCost" caption=""/>
-                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget" caption=""/>
-                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT" caption=""/>
-                            <textField datasource="requestDs" property="recipientOrganization" caption=""/>
-                            <textField datasource="requestDs" property="addressOfDelivery" caption=""/>
-                            <textField datasource="requestDs" property="nameOfCargo" caption=""/>
-                            <textField datasource="requestDs" property="deliveryTimeRequest" caption=""/>
-                            <textField datasource="requestDs" property="descriptions" caption=""/>
+                            <textField datasource="requestDs" property="hotel" caption="гостиница"/>
+                            <dateField datasource="requestDs" property="arrivalDate" caption="дата заезда"/>
+                            <dateField datasource="requestDs" property="departureDate" caption="дата выезда"/>
+                            <textField datasource="requestDs" property="costOfLiving" caption="стоимость проживания"/>
+                            <textField datasource="requestDs" property="dailyAllowance" caption="суточные"/>
+                            <textField datasource="requestDs" property="totalCost" caption="итоговая стоимость"/>
+                            <lookupPickerField datasource="requestDs" property="availabilityOfFundsInBudget" caption="наличие средств в бюджете"/>
+                            <textField datasource="requestDs" property="planedPushcarePriceWithVAT" caption="планируемая стоимость закупки с учётом НДС"/>
+                            <textField datasource="requestDs" property="recipientOrganization" caption="организация-получатель"/>
+                            <textField datasource="requestDs" property="addressOfDelivery" caption="адрес доставки"/>
+                            <textField datasource="requestDs" property="nameOfCargo" caption="наименование груза"/>
+                            <textField datasource="requestDs" property="deliveryTimeRequest" caption="описание"/>
+                            <textField datasource="requestDs" property="descriptions" caption="описание"/>
                         </tab>
                         <tab id="CFO">
                             <lookupPickerField datasource="cfoDs" property="name" caption="ЦФО"/>
