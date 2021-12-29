@@ -145,7 +145,7 @@
                             <textField datasource="requestDs" property="descriptions" caption="описание"/>
                             -->
                         </tab>
-                        <tab id="CFO">
+                        <tab id="CFO" caption="msg://cfo" margin="true">
 
                             <grid spacing="true">
                                 <columns count="4"/>
@@ -160,7 +160,7 @@
                             </grid>
 
                         </tab>
-                        <tab id="mainTab" caption="msg://mainTab" margin="true">
+                        <tab id="mainTab" caption="msg://mainTab" margin="true"> <!--сюда перенести всё со вкладки details -->
                             <groupBox id="infoGroupBox" stylename="edit-area" expand="infoScrollBox"
                                       height="100%" width="100%">
                                 <scrollBox id="infoScrollBox" scrollBars="both">

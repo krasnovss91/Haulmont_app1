@@ -145,7 +145,7 @@
                             <textField datasource="requestDs" property="descriptions" caption="описание"/>
                             -->
                         </tab>
-                        <tab id="CFO">
+                        <tab id="CFO" caption="msg://cfo" margin="true">
 
                             <grid spacing="true">
                                 <columns count="4"/>
